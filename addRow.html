@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Add Items</title>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<link rel="stylesheet" 
+        href="bootstrap.min.css">
+</head>
+
+<body class="container" style="margin-top: 50px; width: 50%; height:auto;">
+	
+	<h2 class="text-primary" style="margin-left: 15px; margin-bottom: 10px">
+		Add Items
+	</h2>
+	
+	<form class="container" id="contactForm">
+
+		<div class="card">
+
+			<div class="card-body">
+
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Tag</label>
+					<input type="text" class="form-control" id="tag" placeholder="USB A-B M-M">
+				</div>
+
+				<div class="form-group">
+					<label for="exampleFormControlInput1">Description</label>
+					<input type="text" class="form-control" id="desc" placeholder="Type A to Type B, Male to Male">
+				</div>
+
+                <div class="form-group">
+					<label for="exampleFormControlInput1">Quantity</label>
+					<input type="number" class="form-control" id="qty" placeholder="123">
+				</div>
+
+                <div class="form-group">
+					<label for="exampleFormControlInput1">Location</label>
+						<select name="location" id="loc">
+							<option value="Welding Closet">Welding Closet</option>
+							<option value="Classroom">Classroom</option>
+							<option value="HS Closet">HS Closet</option>
+						</select>
+				</div>
+
+			</div>
+
+			<button type="submit" class="btn btn-primary"
+				style="margin: 15px;">Submit</button>
+		</div>
+	</form>
+	<form class="container" method="post" action="index.html" >
+		<button class="btn btn-secondary"
+			style="margin: 15px;">Back</button>
+	</form>
+
+	<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+	
+	<script>
+		var firebaseConfig = {
+			apiKey: "AIzaSyDAZQf5-Sq6wnd2nmGud9xfB_Coi5uybVY",
+			authDomain: "itvendingmachine-28a8b.firebaseapp.com",
+			projectId: "itvendingmachine-28a8b",
+			storageBucket: "itvendingmachine-28a8b.appspot.com",
+			databaseURL: "https://itvendingmachine-28a8b-default-rtdb.firebaseio.com/",
+			messagingSenderId: "651890505111",
+			appId: "1:651890505111:web:b062d7d1cf700a0fd100d2",
+			measurementId: "G-N7KHFSJEXQ"
+		};
+
+		firebase.initializeApp(firebaseConfig);
+
+		var db = firebase.database();
+
+		var messagesRef = db.ref('Items');
+		
+		document.getElementById('contactForm').addEventListener('submit', submitForm);
+
+		function submitForm(e) {e.preventDefault();
+
+			// Get values
+			var tag = getInputVal('tag');
+			var desc = getInputVal('desc');
+            var qty = getInputVal('qty');
+            var loc = getInputVal('loc')
+
+			saveMessage(tag,desc,qty,loc);
+			document.getElementById('contactForm').reset();
+		}
+
+		// Function to get get form values
+		function getInputVal(id) {
+			return document.getElementById(id).value;
+		}
+
+		// Save message to firebase
+		function saveMessage(tag,desc,qty,loc) {
+			var newMessageRef = messagesRef.push();
+			newMessageRef.set({
+				tag: tag,
+                desc: desc,
+                qty: qty,
+                loc: loc,
+			});
+		}
+	</script>
+
+
+</body>
+
+</html>

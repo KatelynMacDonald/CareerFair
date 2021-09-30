@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <title>
+            Inventory
+        </title>
+        <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+        <script type="module" src="get.js"></script>
+    </head>
+
+    <body class="container" style="padding-bottom: 20px;">
+
+        <h1 class="text-primary" style="display: inline-block; padding-right: 500px; padding-bottom: 15px;">IT Equipment Inventory</h1>
+        <form method="post" action="addRow.html" style="display: inline-block;">
+            <button class="btn btn-primary" 
+            style="margin-left: 15px; margin-top: 10px; display: inline-block;">Add</button>
+        </form>
+        <div class="card" >
+            <table id="output">
+        </div>
+    </body>
+
+</html>
