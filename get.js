@@ -1,32 +1,29 @@
-  
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
-import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-analytics.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDAZQf5-Sq6wnd2nmGud9xfB_Coi5uybVY",
-    authDomain: "itvendingmachine-28a8b.firebaseapp.com",
-    projectId: "itvendingmachine-28a8b",
-    storageBucket: "itvendingmachine-28a8b.appspot.com",
-    messagingSenderId: "651890505111",
-    databaseURL: "https://itvendingmachine-28a8b-default-rtdb.firebaseio.com/",
-    appId: "1:651890505111:web:b062d7d1cf700a0fd100d2",
-    measurementId: "G-N7KHFSJEXQ"
+    apiKey: "AIzaSyAneiYMGEzQslJ9stxikkG-WDIp4vFBIdE",
+    authDomain: "sictc-career-fair.firebaseapp.com",
+    projectId: "sictc-career-fair",
+    storageBucket: "sictc-career-fair.appspot.com",
+    messagingSenderId: "513234627322",
+    appId: "1:513234627322:web:bb29fecd5ceeea674b3743",
+    measurementId: "G-1GKEYRGJXZ",
+    databaseURL: "https://sictc-career-fair-default-rtdb.firebaseio.com/"
   };
 
 firebase.initializeApp(firebaseConfig);
 const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
 
 var database = firebase.database();
-
+//vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
 var listy = new Array();
-
 var objList = new Array();
 
 function getVals(database){
     database.ref("Items").on('value', (snapshot) => {
         const data = snapshot.val();
         var items = Object.values(data);
+        console.log(items);
         listy.push(Object.keys(items).map((key) => [items[key]]));
         for(let k in listy){
             for (let j in listy[k]){
@@ -35,7 +32,7 @@ function getVals(database){
                 }
             }
         }
-        setUpTable(objList)
+        //setUpTable(objList)
     });
 }
 

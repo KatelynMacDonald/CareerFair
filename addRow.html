@@ -23,26 +23,46 @@
 			<div class="card-body">
 
 				<div class="form-group">
-					<label for="exampleFormControlInput1">Tag</label>
-					<input type="text" class="form-control" id="tag" placeholder="USB A-B M-M">
+					<label for="exampleFormControlInput1">Name</label>
+					<input type="text" class="form-control" id="name" placeholder="Name">
 				</div>
 
 				<div class="form-group">
+					<label for="exampleFormControlInput1">Logo</label>
+					<input type="text" class="form-control" id="logo" placeholder="Logo(picture)">
+				</div>
+
+                <div class="form-group">
+					<label for="exampleFormControlInput1">Website</label>
+					<input type="text" class="form-control" id="web" placeholder="Website html">
+				</div>
+				
+				<div class="form-group">
 					<label for="exampleFormControlInput1">Description</label>
-					<input type="text" class="form-control" id="desc" placeholder="Type A to Type B, Male to Male">
+					<input type="text" class="form-control" id="desc" placeholder="Description">
+				</div>
+
+				<div class="form-group">
+					<fieldset>
+						<legend>Interest Areas:</legend>
+						<label for="ia1">1:</label><br>
+						<input type="text" id="ia1" name="ia1" value=""><br>
+						<label for="ia2">2:</label><br>
+						<input type="text" id="ia2" name="ia2" value=""><br>
+						<label for="ia3">3:</label><br>
+						<input type="text" id="ia3" name="ia3" value=""><br>
+						<label for="ia4">4:</label><br>
+						<input type="text" id="ia4" name="ia4" value=""><br>
+						<label for="ia5">5:</label><br>
+						<input type="text" id="ia5" name="ia5" value=""><br>
+					  </fieldset>
 				</div>
 
                 <div class="form-group">
-					<label for="exampleFormControlInput1">Quantity</label>
-					<input type="number" class="form-control" id="qty" placeholder="123">
-				</div>
-
-                <div class="form-group">
-					<label for="exampleFormControlInput1">Location</label>
-						<select name="location" id="loc">
-							<option value="Welding Closet">Welding Closet</option>
-							<option value="Classroom">Classroom</option>
-							<option value="HS Closet">HS Closet</option>
+					<label for="exampleFormControlInput1">Type</label>
+						<select name="type" id="type">
+							<option value="College">College</option>
+							<option value="Company">Company</option>
 						</select>
 				</div>
 
@@ -52,7 +72,7 @@
 				style="margin: 15px;">Submit</button>
 		</div>
 	</form>
-	<form class="container" method="post" action="index.html" >
+	<form class="container" method="post" action="careerFairWebsite.html">
 		<button class="btn btn-secondary"
 			style="margin: 15px;">Back</button>
 	</form>
@@ -61,14 +81,14 @@
 	
 	<script>
 		var firebaseConfig = {
-			apiKey: "AIzaSyDAZQf5-Sq6wnd2nmGud9xfB_Coi5uybVY",
-			authDomain: "itvendingmachine-28a8b.firebaseapp.com",
-			projectId: "itvendingmachine-28a8b",
-			storageBucket: "itvendingmachine-28a8b.appspot.com",
-			databaseURL: "https://itvendingmachine-28a8b-default-rtdb.firebaseio.com/",
-			messagingSenderId: "651890505111",
-			appId: "1:651890505111:web:b062d7d1cf700a0fd100d2",
-			measurementId: "G-N7KHFSJEXQ"
+			apiKey: "AIzaSyAneiYMGEzQslJ9stxikkG-WDIp4vFBIdE",
+		authDomain: "sictc-career-fair.firebaseapp.com",
+		projectId: "sictc-career-fair",
+		storageBucket: "sictc-career-fair.appspot.com",
+		messagingSenderId: "513234627322",
+		appId: "1:513234627322:web:bb29fecd5ceeea674b3743",
+		measurementId: "G-1GKEYRGJXZ",
+		databaseURL: "https://sictc-career-fair-default-rtdb.firebaseio.com/"
 		};
 
 		firebase.initializeApp(firebaseConfig);
@@ -82,12 +102,17 @@
 		function submitForm(e) {e.preventDefault();
 
 			// Get values
-			var tag = getInputVal('tag');
-			var desc = getInputVal('desc');
-            var qty = getInputVal('qty');
-            var loc = getInputVal('loc')
+			var name = getInputVal('name');
+			var logo = getInputVal('logo');
+            var web = getInputVal('web');
+            var desc = getInputVal('desc');
+			var ia1 = getInputVal('ia1');
+			var ia2 = getInputVal('ia2');
+			var ia3 = getInputVal('ia3');
+			var ia4 = getInputVal('ia4');
+			var ia5 = getInputVal('ia5');
 
-			saveMessage(tag,desc,qty,loc);
+			saveMessage(name,logo,web,desc,ia1,ia2,ia3,ia4,ia5);
 			document.getElementById('contactForm').reset();
 		}
 
@@ -97,13 +122,19 @@
 		}
 
 		// Save message to firebase
-		function saveMessage(tag,desc,qty,loc) {
+		function saveMessage(name,logo,web,desc,ia1,ia2,ia3,ia4,ia5) {
 			var newMessageRef = messagesRef.push();
 			newMessageRef.set({
-				tag: tag,
+				name: name,
+                logo: logo,
+                web: web,
                 desc: desc,
-                qty: qty,
-                loc: loc,
+				ia1: ia1,
+				ia2: ia2,
+				ia3: ia3,
+				ia4: ia4,
+				ia5: ia5,
+
 			});
 		}
 	</script>

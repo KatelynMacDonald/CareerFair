@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -7,10 +8,83 @@
         <link rel="stylesheet" href="style.css">
         <title>Career Fair
         </title>
+        <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
+        <!-- <script type="module" src="get.js"></script> -->
+        <script type="module">
+        
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
+
+            console.log("before firebase config");
+            const firebaseConfig = {
+                apiKey: "AIzaSyAneiYMGEzQslJ9stxikkG-WDIp4vFBIdE",
+                authDomain: "sictc-career-fair.firebaseapp.com",
+                projectId: "sictc-career-fair",
+                storageBucket: "sictc-career-fair.appspot.com",
+                messagingSenderId: "513234627322",
+                appId: "1:513234627322:web:bb29fecd5ceeea674b3743",
+                measurementId: "G-1GKEYRGJXZ",
+                databaseURL: "https://sictc-career-fair-default-rtdb.firebaseio.com/"
+              };
+            
+            firebase.initializeApp(firebaseConfig);
+            console.log("init");
+            const app = initializeApp(firebaseConfig);
+            console.log("app");
+            
+            var database = firebase.database();
+            //vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+            var listy = new Array();
+            var objList = new Array();
+            
+            function getVals(database){
+                console.log("get vals");
+                database.ref("Items").on('value', (snapshot) => {
+                    const data = snapshot.val();
+                    var items = Object.values(data);
+                    console.log(items);
+                    // returns array of objects
+                    // take each object out of array and pass it into setUpTable which will be setting up template
+                    // in setUpTable add conditionals for interest areas and type (for background color)
+
+                    listy.push(Object.keys(items).map((key) => [items[key]]));
+                    for(let k in listy){
+                        for (let j in listy[k]){
+                            for (let l in listy[k][j]){
+                                objList.push(Object.values(listy[k][j][l]));
+                            }
+                        }
+                    }
+
+                    //setUpTable(objList)
+                });
+            }
+            
+            getVals(database);
+            
+            function setUpTable(l){
+                var table = "<table> <tr><th>ID #</th><th>Description</th><th>Location</th><th>Qty</th><th>Tag</th></tr>";
+                for (var rowIndex=0; rowIndex < l.length; rowIndex++) {
+                    var row = "<tr><td>#" + rowIndex + "</td>";
+                    for(var colIndex = 0; colIndex < 4; colIndex++) {
+                        var x = l[rowIndex][colIndex];
+                        row += "<td>" + x + "</td>";
+                    }
+                    table += row + "</tr>";
+                }
+                //console.log(table);
+                document.getElementById("output").innerHTML = table + "</table>"; 
+            }
+            
+            </script>
     </head>
     
-    
     <body>
+        <div>
+        Automated
+        <table id="output">
+        </table></div>
+
+        Hard code
         <div class="grid-container">
             <div class="item1"><img src="careerFairPictures/toyota.png" alt="toyota" height="250" width="250"  ></div>
             <div class="item4"><h1><a href="https://www.toyota.com/">Toyota</a></h1></div>
@@ -43,5 +117,7 @@
         
         </div>
     </body>
+    
+
 </html>
 
