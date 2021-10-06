@@ -1,15 +1,15 @@
 
 
-.item1 { grid-area: logo; grid-template-columns: 20%;}
-.item2 { grid-area: menu; grid-template-columns: 20%;}
+.item1 { grid-area: logo; }
+.item2 { grid-area: menu; }
 .item3 { grid-area: main; }
 .item4 { grid-area: title; }
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'logo title '
-    'menu main ';
+    'logo title title title title title title title title title title '
+    'menu main main main main main main main main main main';
   grid-gap: 10px;
   background-color:#086d15;
   padding: 50px;
