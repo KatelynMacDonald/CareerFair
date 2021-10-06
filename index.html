@@ -5,11 +5,10 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
         <title>Career Fair
         </title>
         <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
-        <!-- <script type="module" src="get.js"></script> -->
         <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
             const firebaseConfig = {
@@ -25,35 +24,17 @@
             firebase.initializeApp(firebaseConfig);
             const app = initializeApp(firebaseConfig);
             var database = firebase.database();
-            
             function getVals(database){
                 database.ref("Items").on('value', (snapshot) => {
                     const data = snapshot.val();
                     var items = Object.values(data);
-
-                    // returns array of objects
-                    console.log(items);
-
-                    // take each object out of array and pass it into setUpTable which will be setting up template
                     for (let l in items){
                         addTemplate(items[l]);
                     }
-                    
-                    // listy.push(Object.keys(items).map((key) => [items[key]]));
                 });
             }
-            
             getVals(database);
-            
             function addTemplate(l){
-                // in addTemplate add conditionals for interest areas and type (for background color) ????
-                
-                // 0 = image
-                // 1 = website
-                // 2 = name
-                // 3,4,5,6,7 = ia1,ia2,ia3,ia4,ia5
-                // 8 = desc
-
                 //https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format
                 //modifying String's prototype - i love stack overflow
                 if (!String.prototype.format) {
@@ -67,33 +48,42 @@
                         });
                     };
                 }
-
                 var prevDiv = document.getElementById("output").innerHTML;
 
+                // 0 = image
+                // 1 = website
+                // 2 = name
+                // 3,4,5,6,7 = ia1,ia2,ia3,ia4,ia5
+                // 8 = desc
                 var div = `
-                    <div class="grid-container">
-                        <div class="item1"><img src={0} alt="picture" height="250" width="250" ></div>
-                        <div class="item4"><h1 align="left"><a href={1}>{2}</a></h1></div>
-                        <div class="item2"><h2>Interests</h2>
-                            <ul>
-                                <li>{3}</li> 
-                                <li> {4}</li> 
-                                <li> {5}</li> 
-                                <li>{6}</li> 
-                                <li>{7}</li>
-                            </ul>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <img src="{0}" class="card-img-top" alt="{2} logo">
+                            <div class="card-body">
+                                <h5 class="card-title">{2}</h5>
+                                <p class="card-text">{8}</p>
+                                <p>
+                                <ul>
+                                    <li>{3}</li> 
+                                    <li> {4}</li> 
+                                    <li> {5}</li> 
+                                    <li>{6}</li> 
+                                    <li>{7}</li>
+                                </ul>
+                            </div>
                         </div>
-                        <div class="item3"><p align="left">{8}</p></div>  
                     </div>
+                </div>
                     `.format(l["logo"],l["web"],l["name"],l["ia1"],l["ia2"],l["ia3"],l["ia4"],l["ia5"],l["desc"]);
 
                 document.getElementById("output").innerHTML = prevDiv + div;
             }
             </script>
     </head>
-    
-    <body>
+
+    <header class="modal-header"></header>
+    <body class="container-sm">
         <div id="output"></div>
     </body>
 </html>
-
