@@ -61,28 +61,27 @@
                 <div class="card mb-3" style="max-width: 75%;" align="left">
                     <div class="row g-0">
                         <div class="col-md-2">
-                            <img src="{0}" class="img-fluid rounded-start" alt="{2} logo">
+                            <img src="{0}" class="img-fluid rounded-start" alt="{2} logo" >
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-7">
                             <div class="card-body">
-                                <h5 class="card-title" style="font-size: 27px;">{2}</h5>
-                                <p class="card-text">{8}</p>
-                            </div>
-                            <div class="card-body">`.format(l["logo"],l["web"],l["name"],l["ia1"],l["ia2"],l["ia3"],l["ia4"],l["ia5"],l["desc"]);
+                                <h5 class="card-title" style="font-size: 27px;">{2}</h5>`.format(l["logo"],l["web"],l["name"],l["ia1"],l["ia2"],l["ia3"],l["ia4"],l["ia5"],l["desc"]);
 
                 if (l["type"]==="College"){
-                    div = div + `<a href="{1}" class="btn btn-danger">{2} Website</a>`.format(l["logo"],l["web"],l["name"]);
+                    div = div + `<div class="card-body"><a href="{1}" class="btn btn-danger">{2} Website</a></div>`.format(l["logo"],l["web"],l["name"]);
                 } else {
-                    div = div + `<a href="{1}" class="btn btn-success">{2} Website</a>`.format(l["logo"],l["web"],l["name"]);
+                    div = div + `<div class="card-body"><a href="{1}" class="btn btn-success">{2} Website</a></div>`.format(l["logo"],l["web"],l["name"]);
                 }
                  
                 div = div + `
+                                <p class="card-text">{8}</p>
+                            </div>
                         </div>
-                        </div>
-                        <div class="col-md-6">
+                        <div class="col-md-3" align="center" style="padding-right:15px;padding-left:15px;">
                             <div class="card-body">
                                 <p class="card-text">Interest Areas:</p>
-                            </div> `.format(l["logo"],l["web"],l["name"],l["ia1"],l["ia2"],l["ia3"],l["ia4"],l["ia5"],l["desc"]);
+                            </div> 
+                            `.format(l["logo"],l["web"],l["name"],l["ia1"],l["ia2"],l["ia3"],l["ia4"],l["ia5"],l["desc"]);
                 //adding to div depending on how many interest areas are blank
                 //will make this smaller is a final version
                 if (l["ia2"]==="" && l["ia3"]==="" && l["ia4"]==="" && l["ia5"]===""){
