@@ -10,122 +10,7 @@
 
         <title>Career Fair</title>
         <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
-        <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
-            const firebaseConfig = {
-                apiKey: "AIzaSyAneiYMGEzQslJ9stxikkG-WDIp4vFBIdE",
-                authDomain: "sictc-career-fair.firebaseapp.com",
-                projectId: "sictc-career-fair",
-                storageBucket: "sictc-career-fair.appspot.com",
-                messagingSenderId: "513234627322",
-                appId: "1:513234627322:web:bb29fecd5ceeea674b3743",
-                measurementId: "G-1GKEYRGJXZ",
-                databaseURL: "https://sictc-career-fair-default-rtdb.firebaseio.com/"
-              };
-            firebase.initializeApp(firebaseConfig);
-            const app = initializeApp(firebaseConfig);
-            var database = firebase.database();
-            function getVals(database){
-                database.ref("Items").on('value', (snapshot) => {
-                    const data = snapshot.val();
-                    var items = Object.values(data);
-                    for (let l in items){
-                        addTemplate(items[l]);
-                    }
-                });
-            }
-            getVals(database);
-            function addTemplate(l){
-                //https://stackoverflow.com/questions/610406/javascript-equivalent-to-printf-string-format
-                //modifying String's prototype in order to add python-like formatting - i love stack overflow
-                //literally making a function for the String class
-                if (!String.prototype.format) {
-                    String.prototype.format = function() {
-                        var args = arguments;
-                        return this.replace(/{(\d+)}/g, function(match, number) { 
-                            return typeof args[number] != 'undefined'
-                                ? args[number]
-                                : match
-                            ;
-                        });
-                    };
-                }
-                var prevDiv = document.getElementById("body-output").innerHTML;
-
-                // 0 = image
-                // 1 = website
-                // 2 = name
-                // 3,4,5,6,7 = ia1,ia2,ia3,ia4,ia5
-                // 8 = desc
-                var div = `
-                <div class="card mb-3" style="max-width: 75%;" align="left">
-                    <div class="row g-0">
-                        <div class="col-md-2">
-                            <img src="{0}" class="img-fluid rounded-start" alt="{2} logo" >
-                        </div>
-                        <div class="col-md-7">
-                            <div class="card-body">
-                                <h5 class="card-title" style="font-size: 27px;">{2}</h5>`.format(l["logo"],l["web"],l["name"],l["ia1"],l["ia2"],l["ia3"],l["ia4"],l["ia5"],l["desc"]);
-
-                if (l["type"]==="College"){
-                    div = div + `<div class="card-body"><a href="{1}" class="btn btn-danger">{2} Website</a></div>`.format(l["logo"],l["web"],l["name"]);
-                } else {
-                    div = div + `<div class="card-body"><a href="{1}" class="btn btn-success">{2} Website</a></div>`.format(l["logo"],l["web"],l["name"]);
-                }
-                 
-                div = div + `
-                                <p class="card-text">{8}</p>
-                            </div>
-                        </div>
-                        <div class="col-md-3" align="center" style="padding-right:15px;padding-left:15px;">
-                            <div class="card-body">
-                                <p class="card-text">Interest Areas:</p>
-                            </div> 
-                            `.format(l["logo"],l["web"],l["name"],l["ia1"],l["ia2"],l["ia3"],l["ia4"],l["ia5"],l["desc"]);
-                //adding to div depending on how many interest areas are blank
-                //will make this smaller is a final version
-                if (l["ia2"]==="" && l["ia3"]==="" && l["ia4"]==="" && l["ia5"]===""){
-                    div = div + `
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">{3}</li> 
-                            </ul> `.format(l["logo"],l["web"],l["name"],l["ia1"]);
-                } else if (l["ia3"]==="" && l["ia4"]==="" && l["ia5"]===""){
-                    div = div + `
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">{3}</li> 
-                                <li class="list-group-item">{4}</li> 
-                            </ul>`.format(l["logo"],l["web"],l["name"],l["ia1"],l["ia2"]);
-                } else if (l["ia4"]==="" && l["ia5"]===""){
-                    div = div + `
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">{3}</li> 
-                                <li class="list-group-item">{4}</li> 
-                                <li class="list-group-item">{5}</li> 
-                            </ul>`.format(l["logo"],l["web"],l["name"],l["ia1"],l["ia2"],l["ia3"]);
-                } else if (l["ia5"]===""){
-                    div = div + `
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">{3}</li> 
-                                <li class="list-group-item">{4}</li> 
-                                <li class="list-group-item">{5}</li> 
-                                <li class="list-group-item">{6}</li> 
-                            </ul>`.format(l["logo"],l["web"],l["name"],l["ia1"],l["ia2"],l["ia3"],l["ia4"]);
-                } else {
-                    div = div + `
-                            <ul class="list-group list-group-flush">
-                                <li class="list-group-item">{3}</li> 
-                                <li class="list-group-item">{4}</li> 
-                                <li class="list-group-item">{5}</li> 
-                                <li class="list-group-item">{6}</li> 
-                                <li class="list-group-item">{7}</li>
-                            </ul>`.format(l["logo"],l["web"],l["name"],l["ia1"],l["ia2"],l["ia3"],l["ia4"],l["ia5"]);
-                }
-
-                div = div + `</div></div></div>`;
-
-                document.getElementById("body-output").innerHTML = prevDiv + div;
-            }
-            </script>
+        <script type="module" src="get.js"></script>
     </head>
 
     <header class="modal-header" id="header-output">
@@ -135,13 +20,16 @@
                 <h5 style="padding-right:10px;">Filter:</h5>
             </li>
             <li class="nav-item" style="padding-right:10px;">
-                <button type="button" class="btn btn-secondary">All</button>
+                <button class="btn btn-secondary" id="allbutton">All</button>
             </li>
             <li class="nav-item" style="padding-right:10px;">
-                <button type="button" class="btn btn-danger">Colleges</button>
+                <button class="btn btn-danger" id="collegesbutton">Colleges</button>
             </li>
             <li class="nav-item" style="padding-right:10px;">
-                <button type="button" class="btn btn-success">Companies</button>
+                <button class="btn btn-primary" id="companiesbutton">Companies</button>
+            </li>
+            <li class="nav-item" style="padding-right:10px;">
+                <button class="btn btn-success" id="militarybutton">Military</button>
             </li>
         </ul>
     </header>
