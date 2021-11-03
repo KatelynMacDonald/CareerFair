@@ -1,221 +1,5 @@
 {
   "Items" : {
-    "-MnWeDqRXi9eGfeim3JA" : {
-      "desc" : "Gibson County Coal, LLC is an underground coal mining operation that provides opportunities for employment in all types of underground mining positions including underground equipment operators, underground mechanics, mine and belt examiners, belt maintenance, preparation plant, safety, engineering and general laborer positions.",
-      "ia1" : "Mining",
-      "ia2" : "",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "https://th.bing.com/th/id/R.ce13f60cbb2326e420c813368c071857?rik=2SwKHCGIl6XDcA&riu=http%3a%2f%2fwww.delfini.org%2fimages%2fAllianceCoalLogo.jpg&ehk=9qaDP4UlY7mO5UgreUS7zxBplgaq8ZifrhHt%2bnxHGB8%3d&risl=&pid=ImgRaw&r=0",
-      "name" : "Alliance Coal",
-      "type" : "Company",
-      "web" : "http://www.arlp.com/home/default.aspx"
-    },
-    "-MnWZy44tOK5lgIlByWH" : {
-      "desc" : "Alliance Source Testing is focused solely on providing accurate and consistent stack testing solutions that allow our partners to make informed decisions and succeed responsibly.  We are the largest exclusive air emissions testing company in the United States.  With our expertise in performing U.S.",
-      "ia1" : "Emissions Testing",
-      "ia2" : "Construction",
-      "ia3" : "Engineering",
-      "ia4" : "Manufacturing",
-      "ia5" : "",
-      "logo" : "https://media-exp1.licdn.com/dms/image/C4E0BAQF4gNJIbMnmuw/company-logo_200_200/0/1617632218886?e=2159024400&v=beta&t=k__VXx7qjWoHzZf1xSuUnOdc4jyvVT1sHWp3HgsvaOw",
-      "name" : "Alliance Technical Group, LLC",
-      "type" : "Company",
-      "web" : "https://alliancetechnicalgroup.com/"
-    },
-    "-MmZESoN_3_CUcsaz8HU" : {
-      "desc" : "ASC has created an Integrated Care Network throughout the state of Indiana. We are always looking to the future, seeking new and innovative ways to serve our customers and our employees.  ASC continues to evolve to better serve our residents, their loved ones and our healthcare partners.  ",
-      "ia1" : "Health Sciences",
-      "ia2" : "Culinary Arts",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABp1BMVEX////vQTb//v////38//////vxQDb///n//f/4/////v38//3//f72//////f8/v8AXqoAZLIAZK7///PvQTkAX6/u9fMAX6gAWaUAYKbx////+v/wQDrsQzUAXawAWaoAZqoAZrkAZ7BvnskAaLMAYrdKhbL4//mPt9isy9zj7/BjmMLyOTLrNyoAWLAAZ8EAUqIAW5qewdTK3eSBrMgIb66Os80weK/e5fIgbrLropvwMijy0czjRzniMCr48uvmfHbocG93ocMAU6u92OUAULEAQIWjvdTQ6fFLkbjx5ubljYnoin3sHybutqzk0tHVnJPlb2DompvoWlzVfXXvrqroU0b3xMjjwrHSb2X51cr0oZnhsKzbXVbkv8PhqqnCTkXfKBPXPTfr2NDqPELuRinohYf95uvRiorhkYP/LibjXkvk2tjmv7j769331dP1k5nyr5bpHgDOlZnvUE7rd3zTfHzlZGQwcqIwh8KhucONw95vrsGm2OoATIcPZp6qzs6PsNPJ6OMAPqIAXMHO6P01eKCFp9Tb3+RgiKWwv8xSl81YhJ4klYq4AAAccklEQVR4nO18i3/TRrr2RNJkNBpdLCu+yXEsG9vC8iW+m8RJnDguUQKkCyzsLpfuB4H2QDew3256CO2y3nZLD7Tnj/7eURIaWsouPWnJ+X56aCPr4tE8mpn3fZ6RZIRChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIEL8UJFUR3ncdfllsaXL6fdfhl8WFLcredx1+WVxcI8b7rsMJQ5BU+IMk/lmSpAeXtm0bafL7rtYJQhJkDXGOCH34m8XFy9W7VxYXF+Pvu1onCJqmcRloAkl39+qdqWptMKjt0vddrZOE7P42DS0Jn9KUXLtezdRmfkcVxJv1/48RqRjoyQM7zQOoJAnStZVBLfOI6rCqpX/vGpgdD62yLAuGwbAhGZIUjNvgLzIMGSmqQchpzKUKQ2u1JXoUWrYfXl+99MTiq0z+ww1Jfi09usBXo8BL3Xq8u729ePPmzVu7SztDQinTWFoWpffA4F8BGK4ObltHA297Zce+sXfF5nvok9tDSTvehtByUvrx9sUn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",
-      "name" : "American Senior Communities",
-      "type" : "Company",
-      "web" : "https://www.asccare.com/"
-    },
-    "-MmZ4LKWsKewMQEObVPs" : {
-      "desc" : "",
-      "ia1" : "Manufacturing",
-      "ia2" : "",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "https://anchor-online.com/wp-content/uploads/2018/06/AnchorIndustries_Icon.png",
-      "name" : "Anchor Industries",
-      "type" : "Company",
-      "web" : "https://anchorinc.com/"
-    },
-    "-MnWaAHXcsyC0ClFlsWe" : {
-      "desc" : "Architectural Sales, Lensing Building Specialties Is a leading provider of door opening solutions and integrated systems in our established trade area, ground level openings include: electronic security services and installation, fabrication and warehousing",
-      "ia1" : "Shipping/Receiving",
-      "ia2" : "Fabricating",
-      "ia3" : "Communications",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "https://media-exp1.licdn.com/dms/image/C4D0BAQHybIpxBj_NlA/company-logo_200_200/0/1543434328524?e=2159024400&v=beta&t=_v95UTubwiUOEeXvAQ7xGUP4Wtif9WedBykREy3I8uI",
-      "name" : "Architectural Sales",
-      "type" : "Company",
-      "web" : "https://www.lensingarchitecturalsales.com/"
-    },
-    "-MmZ6Gnst76UQqyOJN03" : {
-      "desc" : "Ascension St. Vincent Evansville Hospital is part of Ascension Health, the largest Catholic nonprofit hospital organization in the country. We commit ourselves to serving all persons, with special attention to those who are poor and vulnerable. Our Catholic health ministry is dedicated to spiritually centered, holistic care which sustains and improves the health of individuals and communities. We are advocates for a compassionate and just society through our actions and our words. In our local community, we provide care across the age spectrum, ranging from newborns to the elderly, and everyone in between.",
-      "ia1" : "Health Sciences",
-      "ia2" : "",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBISFRgSEhISGRgZGBoUEhwYGhoSHBgdGRgZGRoVGBwcIS4lHB4tLRgZKDomKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHzUrISw9ND40NDQ0NDQ2ND80NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0MTQ0NP/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAgIDAQAAAAAAAAAAAAAABgcBBQIDBAj/xABHEAACAQIBCAYGBgcGBwAAAAABAgADEQQFBhIhMVFhcQcTIkGBkRQyQlJyoSOCsbLB0RdUYpKT0uMkMzRD4fAWRFNjc6LC/8QAGgEBAAMBAQEAAAAAAAAAAAAAAAEDBAIFBv/EACwRAAICAQMDAgYBBQAAAAAAAAABAgMRBBIxIUFRE2EFFCIjMoEVQlJxkbH/2gAMAwEAAhEDEQA/ALmiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiYnVUqBQSxAA1knVYb4B2XmZEsJnth6lZqYuEBCq/czfgvGSpWvrElxa5IbxJxfKOyIiQSIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCInEmAcWawuTKnz3zsOIY0KDEUlNnYG2mRtHwj5zc9IucWgPRKTWZheqR7K9y8Cba+HOaPMbNn0p+uqj6JDqB9th3fCO/jNNcVFbpHp6amNcPWs/SPFgsj10w/pDoQjNcb7WsGK9y7pK80c4ShGHrN2TqpsfZPchO7dJy1FSuiQNG1rd1t0rTOjIhwr6SD6Nr6P7J9w8N04clN9T5r4g7I3vUw78otAGcpE8zst9cvU1CS6jUT7a7L8x3yV3lTWHg202xtgpLucoiJBaIiIAiIgCIiAIiIAiIgCIiAIiIAiIgCIiAIiIBiavL2U1wtB6zeyOyNmkx1KviZszKu6T8p6VRcKp1KNN+LN6oPIXPiJ3XHdLBfpqvVsUSL4DC1cfiAtyWqOWqNt0RtY8gNXiBLuyfg0oU0pILKo0R/vfId0Z5I6uk2JYdqpqTgo/M/YJMMp4xKFJ6z+qilzxsNg4nZ4zu2WZbUX6+5Slsj+KOQx1LT6rrKent0NIaWy/q7eM45TwK16bU3Gph5HuIlDLliqMV6bf6TrOsP8nK3Z5S+8nYtK9NKqG6uoZeREm2mVWH5PLTVicWVUDUwdfc9Nhfcw/IiWpk/FrWprUXYyhh49x4iRPP3JupcQo2dmpy9k+erxjMHH+th2Oztpy2MPsPiZzJZjk83TN6e90vh8E5iYEzKj2BERAEREAREQBERAEREAREQBERAEREAREQBETBgHVVcBSTqABJPKUPiarYzEswvetVAXeAxCr5C3lLgzxxXVYOs4OvQKjm3ZH2ytOj/AAgq41CdiK1TyFh82mmnpFs9LRfRXK19i3cn4VaVNKaiyqqqvJQAJAelfLFlTBo2trVatvdFwqnmdf1ZYWIrrTVnc2VQWY7gBcmfP2V8oVMZiHrEHSd7INthcKiD5eJMnSw3T3PhHkXzePdmvlo9FOWdJHwbnWl6lK/uk2ZRyOv60rnKmT6mGqtQqizLa/ioYEb9vynZkPKTYSuldfYPaG9SLMvlN98FbX0M0JbZF9ZUworUnpn2lI5G2o+BtKxyLiTQxFNjq0X0H5Hsm/n8pa1CstRFdTdWUMp3gi4MqzObDdXiaqjUC2mO71hfV4kzy4d4mb4jHa42rsy2AZyngyRiOso0395VJ521z3ytrqerCW6KfkzERIOhERAEREAREQBERAEREAREQBERAEREATBmZgwCG9JtTRwej71RAeQufwkf6KqV6tZ/dRFH1iSfuibjpUP9np/+Ufcea7orYAYlibAaBJ3AB9fymmPSpnpw+nRSfue3pSyx1dAYVD2qut7bQim5vzIA5XkU6Ncj9fiRVYdiiA+vYXPqDwtpfVE02dOVzi8S9a/Z0ilPgikhfO1/Ey3sxsj+iYVFYWd/pKm+7bB4Cw8JbL7NO3uzw19c89kRvpWyNpKmLQa0+jq8VY9hvAkj60q+fRuUcGlem9GoLq6lW5EbRxnz3lLBPh6r0XFmR2U8bHUw4EWI5y3RWbo7HyiLoYeUWj0W5Z62g2Gc3elrS+0oxNvI3HlPLn7TtiFb3kF/AkSC5r5WOExNOt7OkEqcUY2by281En2frhqlJlIIKEg7wTcESi6vZbnszJrXu0zz2wSbMyppYSnw0l8mIm9kbzF/wo+N/vSSCZXybdK80xfsjlEROTQIiIAiIgCIiAIiIAiIgCIiAIiIAiIgGJgmDNPlvOLDYNb16gDWuqjtOeSjXbjJScnhBtI0fScl8Kp92op8ww/GV1gcsHD4fE0lJDVgiAjuHa0/GxtNrnVn22LRqCUVSmSLl+05sbiwGpdnGQ13J2n8J6VFLUcTR29dFad0pZbNpmytA4hGxLqlJDptcFtLR1hAADe5t4CWpU6RMmrqFSo3w03H3gJXWTcyMfiFV0pqisAVLsFuDsNhc28JuaPRfiiO3iKC/CGqfMhZzd6M5ZcjDBziuiJP+knJ/wD3/wBz/WQTPrKeExdRcRhmfSK6FUMhT1b6L3Orvt4Cbs9FlT9aT+Gf5p5q/Rjix6leg3PTT8DIr9CEt0ZEy9SSw0QSSmjlB69KkH1mmppX3gNdfIG3hI1icO9N2puLMjFWG4gze5Pp6NNeIv5mX6jEopnm62WK9vuWtmTT0cIl+8s3m5IkglU5B6QfRwKFajpInZVqfrWB7wxsfMSxMkZbw+LXSoVFbeNjL8SnWJ5tlU4vLXQ9TTySrivY2kTAMzKjQIiIAiIgCIiAIiIAiIgCIiAIiIBidNaslNSzsAoF2LGwA3kmdWPx1OhTarVYKqi7E/ZxPCUvnbnZVxzFF0kog9hb2LWOp23nh3S2qmVj6cHE5qJIM6OkUtelgTYbDVO0/ACNXxHykSyTkTF5Qcsis9z26jk6I4sx2ngLyUZoZgtUtXxgKodaU9jMNoL7hw2yz8PhkpIEpqqqosqqAALbpplbCpba118lShKbzLgqrLuamHybhjUquatZzoUx6iqxFywHfYA7eGyQvCBdNS4uoIZxvAOtZJukXLHpOKNNT2KN6a22F79tvsH1Zp2yXUp0KWIYWSsW0N9kNtfOxI3gTRW2q8zfVlmmpjbeodi/MI6MisltEqpW2yxGq09EhfRxlYVaHUE9ql2RxQ+oR5W8JM7zy5rDwzRbW65uL7HKcSJynFjOSsqbpNyEUxCYlB2axCVNwZRtPNR/6zT1nFNCfdGrwFhJ9n/jwESgACzMGN9dgt7EbiTq5XlZZZrWUJ72s8hN1LlZiL7HhavE71CPC5N1kLNSllHD9ZRqFK6EpVVrurHaGvtW4I37DNFjcn4vJ1QF1qU3B7DqdTfCw1Hl8ptOj7LHouKVWNkq2pvuBJ7DedxyJlyY3A066GnVRXRtRDAEf6HjOrLZVT2y6o9OEE49OSA5q9Iga1LG2U6gtUalPxj2TxGrlLGpuGAIIIOsEaweIlRZ35ivhtKthtJ6Q7TLtdP5l+c82Z2eVTCMKVUl6B5lqf7S3Pq718pXOmM1vr/0dRm4vbIuuJ0YbEJUVXRgysLqRrBB753zGaBERAEREAREQBERAEREAxOqtVVFLMQFAJYk2AA2kmdkrHpPzjP+BpNubEEbu6ny2E+U7qrc5bUcykorJHc9M52x1TQQkUUNqY98++fwkqzCzM6sLi8UnbPapIw9QHYzg+3w7uc1PRzmwK7el1l+jU/RKdjMPaO9RYczLbtNV9qgvThx3Kq4bnuZmaPO7LAweGeqCNO2hTG9m1Dy1nwm8aU30lZbGIxAoI10o3U22M5tpHjbZ5yiivfNI7sltiRrI2T3xddKC3u79s7bDa7+V/OXTnBkJa+FOHRbFFHU8GQdnw7vGRDolyYCauKYax9CnkGc/dEs+0t1Nv3MLsNPmGJrkorIGVHwOIDkEWJSsvfbYw5gi/hLuw1Zaih1IKsAykawQdhlbdImbpRvS6S9lrCsB3Hufx2HwMx0fZy9WwwtZrIx+hJ9km3YPA3NpFkd8dy5PZ1MFfWrocrktKebF4laaM7kBVFzO0sLX7pXed+XOvbqaZ7Cm7HuZgfmBbz5TPGLbPB1WoVMG3z2NPjsS+LrlgLs7BUG23conhz7yAcJURhcpUQC+s2dLBhwvcEeO6TfMrItv7TUGs/3QPcO9vH7Jtc9cj+l4V6YHbX6Smf2l128RceM0V27JrwYtJpntdkvyZRP+xL3zLyx6XhUdiNNexVH7S9/iLHxlESYdG+W/RsR1TmyVrLwDj1D43I8RNmrr3wyuxqqltlhlzkSrs/czNDSxeFTV61ZANneXUbt48d8tETDC+qeZVY4SyjTKKksMprMPOs4RxQqt9A5Gs/5bH2vhOq/nLkVgdYI16xKa6Qc2PRanX0l+hqE6hsR/d+E6yPESS9GecfWp6JUa70xekT7SDVo81+y26ab64zj6sP2V1ycXtkWJEwJmYy8REQBERAEREAREwYBrM4MqLhKD129kdke8xNlXxJEo3JmEq4/ErTLEvUctUbct7u3hrt4SadLGVLtTwgOoDranP1UH3j4ievopyRo03xbjtOerp37kUjSI5t9wTdV9qlz7vgzy+uW0nmBwiUUSlTFlRQqjcBPVFp4cr4Nq9F6S1GQupUMusrfvGsfbMPL6l/CIvnxnemFRqFFw1dgV1WPVgj1247hKeJubm5JNye88fnLJ/RU3fjRx+h/qR+io/ro/g/1J6NFlNa56/4M04zk+D19FOUKfUPhywFRajPbYWVlXtDfsPylhSsl6LGBBXHWI1gikQRyIqapYGSsK1CjTpPULsihWY6i1vaOs/bMl+xy3Recl1e7GGjvxFFailGAKsLEHWCD3Sm87c2nwT6S3NJj2G71O3RY7x3HhLeyhj6VFdKo6qOO08AO+V7nFnG+JBpqNGkdoIGk/wAXujgIpcov2O4/EoaOX1dU+xrcPnhXegMK7dr1dP2mXuU8e7jNpmvm+cSwdxakp/fO4cJFcdkKvTpjECm/VE+t7v7R77cZu81s9qmGC0sRd6Q1KwtpIN37Q+fOXTgmswL9T8Mr1jWqqeV4LYRAAABqGzunRjsZTooz1XVVUXYkgeGuccDlClXUPSdWU96m/gdxkPy9mA+LrvWOMYBjdVKFwmoCwOmN27vmaKW7EngzyTisJFT4hwzsw2MxYDZYEkgfOcQSNYJB2gjURylk/opP66P4P9SP0Un9dH8H+pPU+apSxn/pldUm84N1mTnemKRaVZgK6ixvqFQAeuu87xJmDKy/RSf10fwf6km+bmSWwlBaDVWqFSTpMCDYm4FiTs5zzrlXnMH+jRBy/qR6MsZOp4mi9GoLq6kHge5hxBsfCUT9Nk/FbqlF/Brf/LAnwM+hJV/SxkizU8Wo22pVfC5Rj8x4CWaWeJbHwzm6PTd4LEyXjkxFJK1M9l1DDhfaDxGzwntlc9E+VNKnUwrHWh00+Fz2rcjr+tLGlFkNk3E7hLdHJmIicHYiIgCIiAJxM5TqrKSpANrgi+642wQyg86sY2JxlZxru5RPhQlF+y/jLsyDh0o4enSUghEVdVjc2Fzq43kCrZjV6FzT0HvrJHZY8SD+BmubDYmgfUrId4DL8xNdslOKiuEeVLVTpm8xeC4QZmVJSzhxaahiH+tot9oneM6sb/1h+4n5Sj02dr4pX3TLUnBmlVVM5sW23EEcgi/hPK+IxNfUWrvw7TjyGqFX5IfxOL/GLZZmNy9hqPrVFvuHaPkJGMp57Mbrh0t+023wX8/KafB5rYqp/l6A3udH5C5kjyfmRTWxruXPeq9lfzPyk4iir1dXf0itqIgiYjFv7dR+Jvo+epR5SY5DzRSmQ+Is7bQvsjw7z8pJ8LhEpKFpqqgbABaeicufZGijQRg91jyzqekpGiQCCLEHZytIFnH0fq5NTCEK200zqQ/D7vLZylhzBEiM3F5R61N0qnmDwUJTrYrAVLA1KTjaNmlwI2MJM8j9I1gFxVPhpps5lT+EneUMm0sQpSrTVhxGziDtB4iQnK3RwjXbC1Sp91+0vIEawPOaPUhP8l1N/wAzRd0tjh+USzJ2ceExH93WQncTot+6dc2oaUpj80MdR9agXA70On8tvyngp4/F4fUtTEU7dxLrbmrCwkOmL/FkfIQn1rmi/YlH0c8soKNWJY81RvtE7P8AjbKB/wCYH7ifyzn5eRz/ABtvlF1maHPDDJWwlWmxUXQstzbtL2ltfiBKorZ0Y59RxNTX3LZfsF50Usn4vEtcU8RUPvMGYfvNq+c6jS4tNsfx398kjuzDx/UY2kdgc9S319S/ML5S9ZVGSMwcWzpUqmnTCsrDWXfskHYLD5y1xGplGUk4nnypVUmlLKOcREzECIiAIiIAiIgHG04lAds5xBDWTy1MBSb1qaHmoM6DkTC/q9H9xfymxmJOWcOuD5SPEmSqC+rRpjkqz1LSUbAByFp2RGWSq4rhGNGZtMxIOzFpmIgCIiAYtAEzEA4lZ11KCMLMqkcQD9s7YgnJrauQ8K2tsPRPNFP4TrGbmCGzC4f+Gv5TbRJ3PyT6k/LPHRybRT1aSDkoE9IQCc4htshyb5YtEzEggREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAP/Z",
-      "name" : "Ascension St. Vincent Evansville",
-      "type" : "Company",
-      "web" : "https://healthcare.ascension.org/locations/indiana/ineva/evansville-ascension-st-vincent-evansville?utm_campaign=gmb&utm_medium=organic&utm_source=local"
-    },
-    "-MnWeG06VS8RNt4g6_41" : {
-      "desc" : "AstraZeneca is a global, science-led biopharmaceutical business and our innovative medicines are used by millions of patients worldwide.  Our Mount Vernon Indiana site is the largest site in the Americas, employing 700+ team members.  The Site formulates and packages oral solid dose tablets, capsules, powders and liquids supporting over 60 markets.",
-      "ia1" : "Manufacturing",
-      "ia2" : "Pharma",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "https://zerocancer.org/wp-content/uploads/2020/04/AstraZeneca-Logo.png",
-      "name" : "AstraZeneca",
-      "type" : "Company",
-      "web" : "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiF6cfDl_rzAhUJa80KHd2DCOUQFnoECAoQAQ&url=https%3A%2F%2Fwww.astrazeneca.com%2F&usg=AOvVaw06IYgqME1XmtAVHXttFWAY"
-    },
-    "-MnWbIKpcyqiFv349LX6" : {
-      "desc" : "At Berry, we create innovative packaging and engineered products that we believe make life better for people and the planet. Our mission of always advancing to protect what’s important is the foundation for all that we do. We operate over 290 manufacturing facilities worldwide, on six continents, and employ over 48,000 individuals. ",
-      "ia1" : "Manufacturing",
-      "ia2" : "Engineering",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "data:image/jpeg;base64,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",
-      "name" : "Berry Global, Inc.",
-      "type" : "Company",
-      "web" : "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjkoL3alPrzAhVTXM0KHQtMAYoQFnoECAoQAQ&url=https%3A%2F%2Fwww.berryglobal.com%2F&usg=AOvVaw3OfJXk234Srxi-zBDbd5O7"
-    },
-    "-MnWlYpM3ZsCqUP0dP2w" : {
-      "desc" : "",
-      "ia1" : "Automotive",
-      "ia2" : "",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "https://th.bing.com/th/id/R.7056beb20581d58c63ae855956f6de8b?rik=X%2bpNQMlpK6mqCA&riu=http%3a%2f%2fwww.bestonetireandservice-sit.com%2fPortals%2f70%2flogo.png&ehk=8kG2E4DjiwWVX5D0%2bUVUEj3K175%2f6QoYkJaWi0jeZjw%3d&risl=&pid=ImgRaw&r=0",
-      "name" : "Best One Tire",
-      "type" : "Company",
-      "web" : "https://www.bestonetire.com/"
-    },
-    "-Mn7FIEH15fL0n5Xn4bB" : {
-      "desc" : "Black Equipment Company opened in 1956 and offers a wide variety of equipment for sale & for rent. We sell, service, & rent forklifts, construction equipment, aerial equipment, sweepers/scrubbers, personnel carriers, industrial batteries & chargers, as well as other specialized material handling equipment & warehouse supplies. We offer both new & used equipment from quality manufacturer's including Yale, JCB, Genie, JLG, Cushman, Advance & more. We also stock & sell replacement parts for all makes & models of material handling & construction equipment.",
-      "ia1" : "HVAC",
-      "ia2" : "Construction",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "https://www.bing.com/th?id=AMMS_a552b1a37f3eabf7a6899b5803d55efd&w=110&h=110&c=7&rs=1&qlt=95&pcl=f9f9f9&o=6&cdv=1&dpr=1.25&pid=16.1",
-      "name" : "Black Equipment Company",
-      "type" : "Company",
-      "web" : "https://blackequipment.com/"
-    },
-    "-MmZ8tOwlu-9YA_3wWRm" : {
-      "desc" : "BNG Heating & Cooling is family owned and operated and has been in business for 75 years!  We offer everything from residential replacement, new construction, commercial and service.  Visit our website at:  https://bngheat.com/ to learn more about our company!",
-      "ia1" : "HVAC",
-      "ia2" : "",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "https://a.mktgcdn.com/p/wOllHt4jDX9JEoL5gEgxEhJohw8Hs6Ng-17Wq0Drxyc/400x400.jpg",
-      "name" : "BNG Heating & Cooling",
-      "type" : "Company",
-      "web" : "https://bngheat.com/"
-    },
-    "-MnWmWhMrkaf3epDWcge" : {
-      "desc" : "",
-      "ia1" : "Diesel Technology ",
-      "ia2" : "",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "https://image.pitchbook.com/DcHLQ6yJWeZeHA5pheyiLmy8wBb1620147962322_200x200",
-      "name" : "Boyd Cat",
-      "type" : "Company",
-      "web" : "https://whaynewalker.com/"
-    },
-    "-Mn7HgVVGucG9hQJESAs" : {
-      "desc" : "Brake Supply was started in 1947 as a repair shop for automotive brakes.  In 1986, Brake Supply was acquired by Koch Enterprises, Inc. Over the years, Brake Supply developed expertise in rebuilding heavy-duty off-road powertrain components and hydraulic cylinders.  Today, our exchange inventory is valued at over $30 million, allowing customers to keep their equipment up and running with minimal down time.  Brake Supply Company is the world’s leader in re-manufactured parts and components.  Since 1947, Brake Supply has served the mining, marine, industrial, and heavy equipment industries.  Our 8 locations provide outstanding quality and customer service.  We are more than just brakes!  We re-manufacture transmissions, torque converters, differentials, drivelines, final drives, wet brakes, hydraulic cylinders, pumps, motors, valves, and much more. ",
-      "ia1" : "Manufacturing",
-      "ia2" : "Heavy Equipment Technician",
-      "ia3" : "CNC and Manual Machinist",
-      "ia4" : "Automotive Technician",
-      "ia5" : "",
-      "logo" : "http://www.kochenterprises.com/sites/default/files/pictures/BrakeSupply-Logo-Big.png",
-      "name" : "Brake Supply Co",
-      "type" : "Company",
-      "web" : "https://brake.com/"
-    },
-    "-MnW_h6B01nAWk6D8JXj" : {
-      "desc" : "Bricklayers Local 4 Evansville Chapter represents several counties in the Evansville and Henderson/Owensboro area. We train and place the highest skilled masonry mechanics in the industry. Earn while you learn! We offer very good pay and benefits packages.",
-      "ia1" : "Construction",
-      "ia2" : "",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "https://th.bing.com/th/id/R.124c3bddd16d1324a430403ecbc084be?rik=LYPW6EqXPcS2nw&pid=ImgRaw&r=0",
-      "name" : "Bricklayers Local 4",
-      "type" : "Company",
-      "web" : "http://www.baclocal4.org/"
-    },
-    "-Mn7A-CTaD5UR5MQ2Pvt" : {
-      "desc" : "The Evansville Fire Department started in 1888 and since that time has grown to 14 Fire Stations with 273 firefighters covering all aspects of the job. As a firefighter, we work a unique schedule of 24 hour shifts, 10 days a month. We offer an outstanding starting salary, great insurance plans, and a pension after 20 years of service. ",
-      "ia1" : "Public Safety",
-      "ia2" : "",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBQVFBcVFRQXFxcZGhoeGRgZGRoaHRgZGRkaHhodHB0eIiwjGh4pIhoaJTYlKS0vMzYzGSI4PjgwPSwyNC8BCwsLDw4PHRISHT0qIio6PTQyNDI0NDo1OjcyPTIyMjQ6Mi8yMjIvMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMv/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAACAgMBAQAAAAAAAAAAAAAABQQGAgMHAQj/xABGEAACAQIEAwUECQIDBwMFAQABAgMAEQQSITEFQVETImFxgQYykaEHFCNCUrHB0fBy4WKS8RUkMzRTgsJDorNEVGNzshb/xAAaAQEAAgMBAAAAAAAAAAAAAAAAAwQBAgUG/8QAMBEAAgIBBAAEBAUEAwAAAAAAAAECAxEEEiExBRNBUSIyYXGBkaGx8BQVM0Ij0eH/2gAMAwEAAhEDEQA/AOzUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUV5egPaK8vRQHtFFFAFFFFAFFFFAFFFFAFFFFAFFFFAFFFFAFFFFAFFFFAeUVizW1NUfiH0lYSNyiq72NswACm3Qk3I9K1lJR7JK6Z2PEVkvVFUrA/SJhH94OnnZh/7ST8qap7Y4I/+uo8ww/MVhTi/Uklpbo9xf5D+ikh9qsFa/1iL0cE/Aa1WPaD6Ro0BXDrmb8TAgDyU2J9bCsucV6ivSXWPCiy+YjEpGpZ2CqNyTYD41T+K/SLho7iMGQ9fdX4nU+gNcp4p7QYjENmd2Y30HIeSjQegpRLKBfM1z0XXrudhyqF2yk8RR1IeHU1R3XSz+x0PGfShOxPZoiDloWPxJt8qTS+32NbXtmHgAg/JapxxR+6qjz7x+e1Y9u/4j8B+38uabLH2zP9TpK+IxT/AA/7Lb//ALjGb9u9/MftTPh/0jYtCM7hxfUMBe3mALVQPrEn4z8v5/pXq4k/eUHxGh/Y71jy7F0zK1eknxKC/I7fwn6R8O4AlDRt5Fh8hf5VccHj45VDI4YHoa+Z4p15NY8g2h8r7U34Vx2WBwVdl/XzHP8AmtFbKLxJCzw6m2O6mWH7eh9GXorn/APb9HAWbun8W6+p5etXLC8ThkAKSIwPRgamjOMumci7S21PEkTqK0tOo1LD4il03tHhEbK08YPTMNPPpW2UiJVzfSG9FQ8HxGGUXjkRx1VgfyqXWTDi08MyooooYCiiigCiiigCiiigPK1yOFBJNgNSTyArZVY+kGRlwE2U2JCj0Z1BHqCR61hvCybVx3TUfcp/tj7ciVWgw9whJDPzcD8PRT1O4865xMVIJJsPK9b5UABY62F9j++lRo3zd8e+PeU8x4X2qnlzeWeq2V6aPlRXPf1+5HEydHPwH86/y9bFxC2sHYeBH7adKwxEIIzrtzH4TUap41Rkso5dmt1FM8SJxmP/AFR/mNa3lXm5b+kfqfWsMFhJJXEcalnOwH5noPGnUXAAYneOTtJ4nIeLLyU65VOrW38Rpa9RyhCHbH9ytkuELMJh5cQ3ZwxkmxJAIuRpcljbTb41q4dhVeZI3JQM2ViFuV9Ot9KvuGjzY+OVR3Z8PcW0F0yg+oGX/NSPjXD3KLjUR1YENMhBUhgR9ooI9w23257XqON/OEsZXH3K1jnPmTya29nFjbFRvdmjiLwsLjMBfUjmRoCNhXmDwiR4ZJlw31hmJzk3ZYwDbKVXqOZ6+lWZeIRLiTHIyhXQSIzaBQ8eV0udLHKDbnr0FVvAKkajsMasUociQOx7N1B0ZO7roB59a1VlkliX0NHGK6MOH4HDTSThLlezZ4ku6lSADrpYgEkAXJ0qFh+EqYFkcsHkkCRKMtmvoWYEXsD0NOcNxCNuJB1dcpTIziwDt2di2um4HwrzDSrJjkRP+FhkYLrfSMEX8bsR8BW7nJP8MmNscCTGcFZXnCMJEhtnb3b3tewudQb6X5UvSZhp7w6H9DyqyYq6YBnKnNiZiTuLKCSPQ2P+al/s7g1eRpJFBiiVmkvsdCFXXnc39KkjYpRbl6cBSnXJbXghx4gciUPQ7ctj+9bmmfci/jlB8d7fy1LW+VZzQPGxRgyMpsV1BB8utbOhPpl6vxSSWJrIy+uS8rjyW382Na2mkO5b40uN+ZJ9SakQYVbZmFlHzrWVKistk9XiErJYjEbcM4jJFIsisQw5Hp+1da9kvartWMUnvC3qCLj5GuMIh32vqq66D8+lOuCcRMcivsU+acx6b/Gta5bZYJNdT59O5L4l+x9Cg17SvgfEFmjVgb6U0q2ebCiiigCiiigCiiigPKr3t1HmwGI8ELf5SG/SrDSD22ly4DEn/wDGwHmwsPzrWXTJaP8ALH7o4RiVup8j06fL0pMjkG4Nqc4hrKT/AIT/ADlSWodOsxaZ2/GJ7bYyj3gnxyZrsu/3l5HxFaJ4RbOnu8x+E1oRyDcb1Pie/eUa/eXr4jxrLi4PK6IIThqobZd/zlDf2R4iqiSDSN5RZZQNb2OjHe3S3U1smwksE5kw0MiiFLyu50ktqTcmxuOQ6XA0quzR/fQ6fNTUzifHp5kVHburyBtmPU1E6nKWV0+8lSxOv4ZdroseN9poF7GWMZpE7T7PUWElicxtb3lHnmqpjikwZ2EjAvfNruCdRrt6a+NewcOkIDyK8URFxK8UpQ9LELY363A8akTth4e6pEk4HdljlWSMtYjvI6BR5DNbrUkK64cJZIJTlLsXSs7WZi7D3QzXIuPuhjppfbxre3DZgXBicFBdxbvBT97Luy+KgipQxmJGcKqxZ4rFAERJBoWfIRkLHT3bVETGSlYU+splS5jBteJhc2JtmA9SNak3v0NcGAwMp7O0TntReIAX7QD8Nr3t8vCtCEg6ZgdRzGvMefUVNheR1UfWY1DyXsLAJIOZst0JA95d7a3vU7EYqa05lCsklll7t1Eoy5ZAEN1J0s9tb20vasb30xg04P2hxEYy5+0jOhSQB1IO4N9/WmWEmhlwxw8cghkZ8xEmokPJc6gBRt937u1qWlIpGjjISNihV5QwCZ1uVcjTITlylWUHnvqYU2DkRI5GWyyZ8pFzYxmzhtNCLX6W1rRwi+uGbKUl3yWT2a4Usf8AvM/cCsFiD90F+Ttf7o5c7jwqF7RY8yEpPGBiEIAkRgQUOtm/FodDvr4WqPg+NDszDOhli3XvEOjDbK3IcvImoMUf3325A8/7VooNTcp/gTQh5mIx/E8giFsze70/F/at7PbvNp+FenQkfpQ7fffce6vT+/hUOSQsbmpEnYy9KUNLDC7/AH+ptjmLSKSeZ+FjvTVFsL35fzlSfDe+vn+h1vy8+VMcc+WI23ay7k77/K9R2xSmkizobm6LJy5Ol/RTxFmjyE7V0+uYfRPgSsefrXT6tnnGe0UUUMBRRRQBRRRQHlUL6VOIBcOkIOsrgn+lLE/PKKvhNcL9veKmfFvb3YzkQabKe8fVr+gFRXSxE6HhlPmXpvpcsqmOk7vidPTny/XrS41vxUl2sNhoPPnzNa2hcbow81I061mpKEeR4hd5tza9ODXWaOQbjesSpG9eWqXhopxlKDyuyesosXHL316jqKkph4kXtXaJ7qCsDNIp7x52AB031IW+t6w4MgUibtChBKxgRPLmYi24soOthqdfCsZ8QX+2xJkkLBVXK6qXYXO1r5RYC/M63Olq+MPC6LduodkUmjXi8Qz5xmEMLG6xl5CpyWtlupz667W26CowxjC4jXs1IsQT2lydSe8NNdq1SuznM7Fjra7Fso6Ak0z9m4lfFQq6hlL95WAIIAJsQa3aUYtsqrMpYQrZSbXJNhpck28r7UZPCrtiuIosjoMLhrKxAvCmwPltUZuILscLhd/+imvyqutV9DpLwm5rOUVEoOg+FepmUMqsVDCxAOhHiNqtYxsf/wBvhr//AKEt+VSsFio3kRJMPhirGzZYo1Pe0vmAFqy9UvYS8Iuim8oqn1xWzmVLs0YAdR3u0UEAtfkRow52HnTDDYt4TCWBkjQiUItipUqVawteM2JzAXU2G29K8bAY5HjO6My+djascLiXiLNHluUZdRcWYa26Gp9uVlHNzh4ZPGGjPZdnmd27TPHpdezPdNrAqCguR5WrEvpnb/tHIDr5/lUyArHIk2GCsl1jUtfuvIl2jYnXmbPyJA2FK8XCqZAhLARxmTcdnIbhlIOoNwPW9R43PDLlOp8qLWDS8hJuawoptwv2fnxAzRhCNd5EB0Nj3b3+VTtxhHl4RUlKVksvli/Ct318/wCa8vPl8qZYlc0fWxU+gOv539KWTRtG5U2zIxBtqLobHz1FNsNKD4hhtfcHcbnxqvdxJSR2PDcTqnS/U7N9HIX6utulXGuXfRvxPITCx2909RyNdQqwnlZOJZB1ycX2jKiiismgUUUUAUUV5QCH2x4ocNhJHU2cjKh6M2gPpv6VwPFTe8xNzqdTuT5jqa6T9LPELtFhwfdBdh4m6p8s/wAq5Xj5Nl9TqfIfrVafx2KPsd7S40+jdj7kRFJ3ro3CMXPJgWkDs0xzBTmtrmCjcha5ytdBwsAj4e8Bki7UiTQSpa7MSut+hHxrTWr4Y/c5dL5eRbxbiUqDsMUwkWWLMbKLxvrYAgkHKy7+NVPDxh3VGkWMMbF291RYkk9dtBzuKtBwfdEuNZGWJOzSJHBZ7XscynQ3v521sKR8KfIzyLIEfKVi7oZ3fSyrcEJqVBa217WuTW9TSTx/4aWctZJk7NI6xLM7wRKC3afZBSqG40S6gjRRa9g3nSl4mkOdYsq7KERsoUeNrk9Sda34hWWPPIilpZDmZzmZ8l7lNO6l7XYEEk2Ggq18F4k5wkUMMqpIC90zWLXZj0Ou1Ysm61lLJJVWrJbW8FJaMjcEeYtWzA4gxyLIhF1Nx+351Z5OP4sXVnlBBIOtrW0Otq3f7Rx+nfkW4BGYqDbloddfHf1rR6mTWHFfmXv7Y4NPciNZJ4Gm7PJIJbMQzd4PrzPXp41GweBRnysWCgMzW3siljb4UyfjmLRhnd7jcMLXA5UwMQ+tK49yaJ2BtpcxnN89fWqe9p/Q6sN1dTi+Xh4Ygw0+FlOTs5Ir3tIHLgHlnB0t5W5140LRsVbdbEEHQ6AgjqCLGm3svjJVwarA6q5kcsCwUnQWtfy2/vWuf2mxSMVa4KkhrgHUHXY2rM29zSX6kOjtt2c85EntZGPrBkHuyoki9DmUBvPvA0kNX6TiWMYd5YyCLhJBETbe4Vr2PPxqDNjo3bLPhYjbQ5UETr5Mljz2OmtWqtS4xSa6OdPw6dkm4tfYq+Dl1Ecj5YZHUyaA2sCA3pemcMTk/VyVyzGNzK+hsM7Rt1DMq+6eY31rDjXBxGokjbPC5sDpmRvwOBsbc9j8qjohkhztYhT2bM5IzEoBEqWGy5cxv+K/Wp8xmtyOe4ShJxkuRePHf+367+tWz6PVP1hugj1/zrb9ar/FSTKsnZ9msqIUS97IqIqnxBtVg4A2LSG8awqrXyF8iu5BN7Ei7C+mthWuoe6rHuKuJ5K7xN7zSnrJIf8A3mjBS/dv4rrz5je2tSOPl+3ftFCsLbIqZujWXQ3vvzFtaXDQ35japVHdWkSU3Oq7cizcOxxjZZFOqm++4513H2b4os8SsDyr5+wsl+913HQ8xv6+tX/6NuK5JGiJ0vp5HUVHTLGYsv8AitUZqN0fXs67RXgNe1YOKFFFFAFeGva8NAcP+kGUtj5gfu5FHlkU/qaomK/4jX8N79B11q6e3K2x+I53ZTvb/wBNOmtUrEe+3n4/rr8ar1f5JHd1vGjrSNdWLDez0SwpLiZjH2n/AA1VAxsRoWuR526c6rtXrC8YjWGKPF4cWyAp2kYYMALZl3tcW6b1jVSlFLH6dnKpim3krnGODLDGkiSiVXYqO4VIGW631Ou/yrHBgpArCJArM7mUm7uYc7qFH3E0C3G5vTzjvDsNLA0+GOXszdkBJQjnZSe6w0OnLlVbYjsEezuwR0JGXKlw5RABroAWY/4qxVPdBZ9zM47ZGPFlUGJVVxljUl3vd81u8AfdUWsBYdbVv9m/+ah1t39/Q1F4m+aZ27QyXy98i2Y5RfKPw3vb+Gpfs1/zcP8AX/4mpZL/AIn9jWv/ACL7jRRmm63l8936c/Kp/wDsxTi8Y80TNHGrsty6AvcZbMpF7946edLI42MgVCFYvZSdMpzbny/SpXEGxLKwacSonvKsjNlA3JUgED00rmrK69j0+qrjZKCbxj9RxH2HYo7p9m1wyFnbKblQysxJG3WpGFEcSgPID2bMYm3ORwASw6At8QKXyx/7gDp72muv/ENIkikewQMzW5XJsLfLYVBGO7PPqZVCaazhZJkcSwRJEsgd+1LllBsoyhQASNTpe3jWvjK/byf1mosKusiq6kG4NmFjuOvKpXGGHbSf1ttU/wDtlk1NUa/hj1gWe07E4mQE7ZQP8i/vUzAMZoXzG8kOUhubRnQqTubHUE1C9pP+Zk/7P/jWt/sw3emG4MMh/wAtrfnVyUV5KfsedotlDVcP1GPDPtM8B92VSvk4F0YeINqQcMiJ7VMmZmQkXIyxZdJHYHYhTYMBoTTbANaWPrnX8xUXCwZsbKuQyW7ayA5VPf8AvkkdzXUeWhqOh4yi54xWlOMl6kLFBBFYZ2dXUsW1EcRX7JQdN89yPDwq4oMLJhcPFigyOEUxkOFNjve+liF5jSqnO5+qn7UZC0No7d5pBCltb+4o+YA0p9wd5pYFWTCJPGgIjdzlJy37qm4ZtRbTSs3xbinnpnLreGyJ7a4YrJEyj7MxKsbdchNwbk66g7896rNNuO8SklcK8fZCMWEQBGTQcj4WpTVrTpqtJkNjTk2iZgG1I9RoPI+XL4U94PizFiYmvvofQ1X8H73mDyv8ue382pjiGsY26OPmD/aopfDajs1rzNBJP0Po7h02eNW6ipdIfZGbNh0PgKfVZOCFFFFAFFFFAcN+kJMvEJr/AHgjehQD/wATVFxa2c/zlXUPpVweXExy8pIyp80Nx8m+Vc6x8GmYcvy/nPxqrF7bGn6noLa3doYtf6i29WCL2lXso4pIUlyLY5yPQjmpt40hRbkC4Fza52F+tXvhfHQcRHhYrGBVyhrAklULZhcHmD661tqWsJ4zjk41S5xnBW8Zx/NGYY444Y2N2CXJbzJ1PKoiOfq4zSWCyZUjF7ZSWEjORoL58tzy0FWriHHgs02GlVOy7yhsgDJmQa91ep3AvVU4e5tLECi9ouZ5G2yRgtbwzNlF/HrWtfMc4x6mZ995MuM37QMxQF40bs0taNbEImnRQp9a3ezQJxcP9X/i1aZBnw0bogEcRZHb72eVswB0FwAqi/8Ai+Fi4LhkjgimSAyzNn74LkJZmUXRb7g8+lbWzUa8P7G+nrc7UkRIBeVDbeRf/wCxzrTFjUixeIL3Ct2qaC5F2sNOe3OpAwkwObs5BY39yTff8NTMTDBIc74CXtCbvkZ1R2O5AtcEk7C1U4SS4f6Hd18JT2uvtDLCSR4jChEYqiFQzvoQFzMxtfU/vWzAY3tXkyp9mkeVcpykDkoba2h0PS9JMR2zoI48O8cS7Ikb2udySblj4mnmGXsssA1KxSySEc3KEWPW17elV5xS6NWpRq+J5f0EuEkaWKJ21btwoPRWCm3lcc60cT1ll/ra/wAak8AlUYRX7NpCsxJsW3C3UmwNxra3hS+ebMzMb3JJ91tySelStfE8FjQTzDL9iF7TL/vUg/o/+Nam8AgyQzTHQMOzQfiJsXI8ALfOp2K4rh5CHkwYeUAd8vIqtYW1VbXFappJcQQEQBF91VASOMeF9B+Z1qZ2uUFHGDn06Nq5zk+E8mjhlu1Un3VJZtQNF1NROEyAtipWSVgI3JEZKAh2uc7jZRbbnroay4hikjVoo3zswtI42A5ovUX51pDKuDypK5knckxqAFATunObXa4+6DzGhqSuDSy/Ug8R1MbbPh6RHxLsIgDEneYDtd2YRqq5V8AU1NtTzq4HD4eTDQRzO8EqouTKbaG26k6jS/IiqfxXswURI5BZcxeTMHYtvYHZL3O2p187Dg52xMI7TBGbs1ssil1JCg93uat5ai9L4tpPrkp1ySbRF9toGWdWIGUxrkYa5wuhJvz6+lVymXHOKSTOAydmE7qprdfMnW+g+FKqs0KUa0n2Q2NOTwSsH73of0671Lx7aL/UK18OTdvTfpvy8tPKssR3pI18b7+n71FL4rTtwXleHtv1O7ewJP1ZfKrXSD2Pw+TDoPAU/qyefCiiigCiiigKh9IvCTPhCUF5IyHTxtuPVSR8K4ytmHn+dfSEqBgQa4f7bcG+q4kkX7OUll6K/Meu/wAarXwz8SO74Pqkm6ZdMpGJiysR8Ke+xuEYzLNdRHGSGJYA3KHZdzuKX8SQZb6XpYHI2JHWxrbm2vamU9ZUtPqGvTtFn47wd3xZbNGscr91jImgsLkre/palfHeFjCyoBIJR3WNhbQMLqRqOXjSuvK2hXNYTfCKkpp5aQ4R1QF3jHZSK0nZq11GcMkbDYqyO2Xb7ynlUb6ziIGMRdkZDZgDpfe48De/rWrh2rZMoZmKKhdioCgnMhbkGHd1/EOlTfqyy2ijGbEGQm5IF48huj62Lqy2uN/WsNRziS4HOMo0njGI/wCs/wAazwuOxEkiRiZwXdVBzGwLEC/lrSxTfb/SpnCZxHPG7aBXUk9LGszrgotpIzGyTaTZbJ8S8MQjGIeSXMS7Kz5VH4dbG+vTkajcMxgEhMhOV1ZGbXQMLX8baVjjMMrMzri4lVmJAZmWyk3HI1pGCU//AFsA/wC9v0Fc3bxz6npa7NOqtuTVjklwQQwzq8cucqV11WwObTfUfDlUVvaXFf8AU9bDrf41K9oZwIoYxIkmXtMzKbgHMNrgHYiq6avU1RnHMlyefum4TahLgbj2mxfKU/BajYrjE8oIeRiOmw+VQbVIwmDklbJHG0j2Jyr0BAJN7ADUfEVN5UI84RC7rHxk8wUAkkEbP2am+Z8pYKACdh1tbcfKmGJ4iJJbtOUSIL2WWOzEC3upc5b2BuSdh5VniMZ2CNh4XlVWP2yydktmygMLqCQOV76W6ml+OdQqRJIsiKCSVjCC5tzOp8dQNBWnzP8AYx0iO7lmZiWJYnVjma3K55kC37V0NMBHNh4AJ3w8ioMgFspuL6qLHqbg8zpXOasp43hpURcRFIXVVXOkhW4ANr3v13t61Hqa5S249CSmaWcmv20jK4k3G6Ic349LZvlbXXSkMaXIH8FM+PcY+supCZFRcqi9zbxJrDh0P3uu3l6bX0+dbxk4VLd2Taaj+ovwuiSiBV0H5/uRWXstgzPigQNL6eQ/l6icSn0yD3m08hsT+nx6V0v6LuAZR2jCsURfzP1Lni18eKY9I6Xw2DJGq9BUuvAK9qwcQKKKKAKKKKAxqo/SPwxZcFI9u9EM6n+jU/K9W40r9pAPqk99B2Ulz/2GtZLKZLTJxsi17nzzjDdDz0/mn70opviR3D5bXP5c6UCo9N0zq+ML/ki/oArZFGWNh/PE+FEMRY2FTVAtkTb7z/z8q3ss28Lsp6bSuz4pfL+54IxbKptaxZ/Eai3j4VjBOS8KxnJJH2lpLDvjVlBtYnTMvXvVqnmFsq6KPnUfsiwNlJsLmwvYDmbbDXfxrWMXjLNtVZDKjFdDnDRpiGihktA6xyZGygdopCtED1A74vck/GluIwkkao0iFVcEqbgg5dDsbrYnnY1jDiBdFlUSRqrrtdlV9iNd1OoqVw2d4+yaGRgxLKVuqASZdiDoyuLe9a9rXB2cxKfDF+WimfaRnJeKNrSNe2eAsCTeN2BsSCQQVJICgag1hJ9XYsEWUFjeMZ0Nre8jX1Oxs97i4uDbXbevYYF4FDMBuQPOnSrhAxPZSFGWxEkyo0bjTuMpCvfTRhpbxrWmJMYSSIxxyIcqyRozF82nfd/s7+IPM200p5nshtI+H4W7Ksj3jha/2pQuBYG3dXUXIsCbA8jW537rRwRAuii80RmzupN2uLAa/wCIW6XqHLbNJ2zhXY3ssd1JvckZSFAO2g5+danxDNaw7P8AFlZ7vbYtrqdTrvrWvL7GUhhHIY8ww0pJI+0+zy7X0GYknyI9aiSYYWzJ7vMcwa0RNlII5UwjfN3k977y/i/v+dYalF5OhpoV2wcX3/OhdXhqXPBcZ193mPw1FtU0ZKS4KVtUqpYZ6iXIHX+fz9KexgBdD8+XxpNhB31/mwP8/am07EIx5hT+VVdQ8ySO34TFQqnZ6mz2V4YcVibnUX+Q2r6E4VgVijVQNhXLvokwH37V2AVZSwjgWScpOT9T2iiismgUUUUAUUUUBjVb9vcWI8DNqAXXIPN+7+RJ9KstUr6UcMz4QMouI5Azf05WUn0zCtZ/K8E+lUXdFS6ycYlGjarsefh05+VLYYyxsP8AQdTTh4SVbbUchb4k7iogS10XQD33qtXZti0uzv67TOyyMn0CLui6Ae83XwqNiJ791dFHzr2eUe6oso+dRrVLCH+0jnam/C2Q/n2CrvgcPLg8MWiUNiGCvKuhKR3Nky89LkjxPSqZh5Sjq4AJUggMLgkdRzqTieISyys+Yh5O7oTsdMvlWbouWF6epRi9vfZPxOHjnjkxEaCERgZlFsrud8g+5y01Go2qBxDg00QDSRlQbEMCDY2BsSDdWHQ1Z3wi54MEhuiHtJjbe2p+I5eK1IjmVpZsQ08b4dldWjOa+wAVlIsd9wTVdXOPHoSeWpfco3aya2drlgxJ1OddmB3DeNbv9oSFnLBGEihZFsQGts2mzDqKszQRxYWEthBKXUu7gNmQM1wCy6jQgC/Q0n4NhopsUEKkRMXIUMbgBWKjNudt6ljZFpvHCInBppZF64yQZCMqsgIDqoDFTyOlj52vWrtJMpXtGysSSt+6b76bU8fDYWRZSkckbRAkgOHDqDl0zC6m/iR4U34gjCNDhsPBkaEOzlIywuDfVuenjR2xWEl+ZnY+eSrYDg00ozRwuw6gWB8ibAnwFOuBYHDqyCcHtWzWjlBVFsSoLDdzcHQ6VKhk7bCRSNN2ZiYh21N9bqLDcnT40i45xLtcQ0qaC65Tse6BY+elab52Nx6+xttjHDNHFVftpBIio+azKoCgHwA0sd/G96io5U3G9WaX2gjDR4hQO2yFZFy3BI2a59079dCKrUr5mY2C3JNhsLnYeAqetuUcSRq5bJbovknI+bvp733l6/3rRiIhbOnu8x0/tUeOQqbipytfvrv95Oo5+ZrRpwlldHThOGqhtl3/ADlEbB+/6H8v519Kn4s/Zt5fmbVHihGcMuqm/obbVMnTuOP8JqKySc0y9o6pV6aaf1Oo/RTHaK9dIrnX0VyAw2rotXDy7CiiigCiiigCiiigPKi4/CrIjIwBDAgg8walUUCeD599oOGyYKYowJjJ7jHofuk9RUB0Rh08PT/Su7e0fAo8VEyOoN64lxz2WxGHYhbsnK/71VnQ85ieg0ni0VDbcskJcNEDr+n6+nwrxpIh4nw/nh8zUBsDiG+4b+tScN7NYmT7p+FYVM32ySXimmjxGC/I2/Yt4HbXXy3qLiuHEarqDr8TYfpTmL2ExRF7GoeJ4disMe+hK1nZOHKeSL+q0uq+Gcdr90LouIzR5gHOqlTcAnKdwCRcehqTh8fGMK8HuM7hncgkFVtYC1yNh+9e/ZyCwFj/AHufzNRMRw9lOmvmfE/HasqUJcPhla7QW1/FD4oj/i+OSVVaLFrGFiyNG2ZS2XkLXuSNLUp9mJFXFRs7BVGYkn+gilrYdhup/OsCK3jVFRcU+ylNTUk5RLCBFAmJBmjkMqlEWMlj7xN2Oy9bflWa4rCSYeFZpJFeIOLRgEsCdLk6Dbx3qtCtqQsdh61h1LtsR3N4jEn4fiSxLPGql45RZcxsVsdGNha9rfAbUvjiLbCp0HDju3w8rfzT41LaWOMWFr9f55VrK2MM7eWzpabwuc1ute2KIicMY76fzx/m1Zf7L/xfl/P9ajYjibHRda9w+FxEnug/Ci82XJLY/D6ntw5G8cLvsfy5/wA+dZxcOZTcH8vDx8flWR4di4xfKfnUd8dIujKR6VrPzejemfh7akspjCONRfWx5+dK8fi8x7NdfGsJMa7CwBv1q2ew/sg8zh3Gl761mup53SNdf4nDZ5dP4svP0V4RkiuRvXRqhcNwCxIFUWtU2rR54KKKKAKKKKAKKKKAKKKKAKjT4KN/eUGpNFAK14JCPuD4VJiwEa7KPhUuigNYiXoKgcR4RFKpDKKZ0UBxf2r+j9o2MkFx4DaqTK0kZyyqRbw3PKvpp0B3F6rnG/ZOGcHui/lUU6oyL2n19tPGcr2OCpjT1B89/jWX1tD7yD4/verpxT6MnBJjpK/0fYkHY/Oo/I9mXv7sn80RP9Yi5Lb+eFePxIAXsAfTx/c03HsBieh+dT8F9Gkre9pT+n92Yfi+PlikU6TiTse6CazwXBp5mACn5113gn0cRx2L61dMFwSGL3UHwqWNUY9HPv1113zM5n7NfRxs0o9K6LgPZuCIABB8KdKoG1ZVIVCDJwuJhYoPhSHiHsRh5DfKBVsooCjQ/R5ApvYVa+H8OjhUKgAqdRQBRRRQBRRRQBRRRQBRRRQBRRRQBRRRQBRRRQBRRRQBRRRQHhFY5B0FZ0UBr7NegrLKOlZUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUAUUUUB/9k=",
-      "name" : "Evansville Fire Department",
-      "type" : "Company",
-      "web" : "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi6zcnH3u3zAhVORzABHe22Bz0QFnoECAgQAQ&url=https%3A%2F%2Fwww.evansvillegov.org%2Fcity%2Fdepartment%2Findex.php%3Fstructureid%3D20&usg=AOvVaw0uLn_gTvpOn_hbfCIsINAU"
-    },
-    "-MnW_rC84GRP9hd1wQ4S" : {
-      "desc" : "We are a CSIA certified control system integrator dedicated to performance improvement and innovation in batch manufacturing.  We primarily support a variety of large and small food and beverage manufacturers as well life sciences and metal industries.  ECS Solutions is a recognized leader in the delivery of process control systems that provide information and controls our customers need to manufacture more products faster and at a lower cost.  With rapid developments in technology we are always seeking new approaches to control systems - approaches that allow are staff in partnership with customers to filter and consume information quickly.  We take pride in our staff and our company culture and have been recognized in 2020 and 2021 as one of the Best Places To Work in Indiana.  ",
-      "ia1" : "Engineering",
-      "ia2" : "Computer Technology",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "https://www.csiaexchange.com/File.aspx?id=7759&v=53b434c",
-      "name" : "ECS Solutions Inc.",
-      "type" : "Company",
-      "web" : "https://ecssolutions.com/"
-    },
-    "-MnWn10JFZGFQu95FUmG" : {
-      "desc" : "We represent Deaconess Hospital.  We offer a wide range of positions from patient care to non-patient care positions.  Many of our positions requires only a High School Diploma.  Many areas of the hospital will be represented.  ",
-      "ia1" : "Health Sciences",
-      "ia2" : "",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "http://chambermaster.blob.core.windows.net/images/members/1853/27578/Deaconess_200x200.png",
-      "name" : "Deaconess Health System",
-      "type" : "Company",
-      "web" : "https://www.deaconess.com/Deaconess-Gateway-Hospital"
-    },
-    "-MmZCgfd0bJtFCmQ9VrF" : {
-      "desc" : "For more than 20 years, Ciholas, Inc. has specialized in designing complex electronic systems for clients in a variety of industries throughout the world. We love to invent, develop, and engineer new things – and almost everything we design is patentable, embedded technology. Ciholas brings new perspectives and approaches based on our knowledge of the latest technologies. We are then able to create new ideas that can radically change an industry or client’s product line. We enable our clients to become the disruptors in their markets.",
-      "ia1" : "Engineering",
-      "ia2" : "Computer Technology",
-      "ia3" : "",
-      "ia4" : "",
-      "ia5" : "",
-      "logo" : "https://www.decawave.com/wp-content/uploads/2018/08/ciholaslogo.jpg",
-      "name" : "Ciholas Inc",
-      "type" : "Company",
-      "web" : "https://www.ciholas.com/"
-    },
     "-MlQmX3psPflMMLNZkE3" : {
       "desc" : "The School of Engineering at Murray State University provides a wide variety of engineering and engineering technology majors for you. We're attending the College and Career Fair to help you figure out the best pathway that leads to a rewarding career in the field of engineering. The School of Engineering offers degree programs in Engineering Physics (ABET Accredited), Civil and Sustainability Engineering (soon to be ABET Accredited), Construction Management and Architectural Design, Electromechanical Engineering Technology, Manufacturing Engineering Technology, Design Engineering Technology, Cybersecurity and Network Management, and Physics. To learn more about these majors in the School of Engineering, please visit www.murraystate.edu/engineering or email Dr. Rudy Ottway (jottway@murraystate.edu). ",
       "ia1" : "Manufacturing",
@@ -264,7 +48,18 @@
       "type" : "College",
       "web" : "https://henderson.kctcs.edu/workforce-solutions/hcc-fame/"
     },
-    
+    "-MmZ4LKWsKewMQEObVPs" : {
+      "desc" : "",
+      "ia1" : "Manufacturing",
+      "ia2" : "",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "https://anchor-online.com/wp-content/uploads/2018/06/AnchorIndustries_Icon.png",
+      "name" : "Anchor Industries",
+      "type" : "Company",
+      "web" : "https://anchorinc.com/"
+    },
     "-MmZ53rm2k_2XjeFQ0o5" : {
       "desc" : "SIU Carbondale, College of Engineering, Computing, Technology, and Mathematics, is a Nationally ranked University and College, offering a personalized education with State-of-the-art facilities, small classrooms, and hands on courses.  Upon graduation, over 95% of our students are fully employed in their field of study, with a median salary of $86980.",
       "ia1" : "Manufacturing",
@@ -289,7 +84,18 @@
       "type" : "College",
       "web" : "https://www.vinu.edu/web/guest/major/diesel-service-technology-cg-"
     },
-    
+    "-MmZ6Gnst76UQqyOJN03" : {
+      "desc" : "Ascension St. Vincent Evansville Hospital is part of Ascension Health, the largest Catholic nonprofit hospital organization in the country. We commit ourselves to serving all persons, with special attention to those who are poor and vulnerable. Our Catholic health ministry is dedicated to spiritually centered, holistic care which sustains and improves the health of individuals and communities. We are advocates for a compassionate and just society through our actions and our words. In our local community, we provide care across the age spectrum, ranging from newborns to the elderly, and everyone in between.",
+      "ia1" : "Health Sciences",
+      "ia2" : "",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "data:image/jpeg;base64,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ZGijQRg91jyzqekpGiQCCLEHZytIFnH0fq5NTCEK200zqQ/D7vLZylhzBEiM3F5R61N0qnmDwUJTrYrAVLA1KTjaNmlwI2MJM8j9I1gFxVPhpps5lT+EneUMm0sQpSrTVhxGziDtB4iQnK3RwjXbC1Sp91+0vIEawPOaPUhP8l1N/wAzRd0tjh+USzJ2ceExH93WQncTot+6dc2oaUpj80MdR9agXA70On8tvyngp4/F4fUtTEU7dxLrbmrCwkOmL/FkfIQn1rmi/YlH0c8soKNWJY81RvtE7P8AjbKB/wCYH7ifyzn5eRz/ABtvlF1maHPDDJWwlWmxUXQstzbtL2ltfiBKorZ0Y59RxNTX3LZfsF50Usn4vEtcU8RUPvMGYfvNq+c6jS4tNsfx398kjuzDx/UY2kdgc9S319S/ML5S9ZVGSMwcWzpUqmnTCsrDWXfskHYLD5y1xGplGUk4nnypVUmlLKOcREzECIiAIiIAiIgHG04lAds5xBDWTy1MBSb1qaHmoM6DkTC/q9H9xfymxmJOWcOuD5SPEmSqC+rRpjkqz1LSUbAByFp2RGWSq4rhGNGZtMxIOzFpmIgCIiAYtAEzEA4lZ11KCMLMqkcQD9s7YgnJrauQ8K2tsPRPNFP4TrGbmCGzC4f+Gv5TbRJ3PyT6k/LPHRybRT1aSDkoE9IQCc4htshyb5YtEzEggREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAEREAREQBERAP/Z",
+      "name" : "Ascension St. Vincent Evansville",
+      "type" : "Company",
+      "web" : "https://healthcare.ascension.org/locations/indiana/ineva/evansville-ascension-st-vincent-evansville?utm_campaign=gmb&utm_medium=organic&utm_source=local"
+    },
     "-MmZ6oTo4HnFEqCUKubh" : {
       "desc" : "In 1990, Hutson acquired its first John Deere dealership and through planned growth and a continuous focus on customer service, Hutson has grown into 29 locations throughout the heartland of the United States. The Hutson product offering has grown over the years to include Lawn & Garden, Commercial Worksite, Ag Management Solutions, and Commercial Application Products. Recently, Hutson has added new divisions to provide agronomic support for our customers. We pride ourselves in being able to provide the highest quality support and service that our customers expect and come back for year after year.",
       "ia1" : "Diesel Mechanics",
@@ -326,7 +132,18 @@
       "type" : "College",
       "web" : "https://coas.siu.edu/"
     },
-    
+    "-MmZ8tOwlu-9YA_3wWRm" : {
+      "desc" : "BNG Heating & Cooling is family owned and operated and has been in business for 75 years!  We offer everything from residential replacement, new construction, commercial and service.  Visit our website at:  https://bngheat.com/ to learn more about our company!",
+      "ia1" : "HVAC",
+      "ia2" : "",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "https://a.mktgcdn.com/p/wOllHt4jDX9JEoL5gEgxEhJohw8Hs6Ng-17Wq0Drxyc/400x400.jpg",
+      "name" : "BNG Heating & Cooling",
+      "type" : "Company",
+      "web" : "https://bngheat.com/"
+    },
     "-MmZ9BCdjNGDCTqVoqqj" : {
       "desc" : "Wabash Valley College Diesel Equipment Technology Program is a two year Associate Degree program. Focus is on Ag, Heavy Equipment  and On-Highway Truck Equipment.   ",
       "ia1" : "Transportation",
@@ -411,7 +228,18 @@
       "type" : "College",
       "web" : "https://www.vinu.edu/web/college-of-health-sciences-and-human-performance"
     },
-    
+    "-MmZCgfd0bJtFCmQ9VrF" : {
+      "desc" : "For more than 20 years, Ciholas, Inc. has specialized in designing complex electronic systems for clients in a variety of industries throughout the world. We love to invent, develop, and engineer new things – and almost everything we design is patentable, embedded technology. Ciholas brings new perspectives and approaches based on our knowledge of the latest technologies. We are then able to create new ideas that can radically change an industry or client’s product line. We enable our clients to become the disruptors in their markets.",
+      "ia1" : "Engineering",
+      "ia2" : "Computer Technology",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "https://www.decawave.com/wp-content/uploads/2018/08/ciholaslogo.jpg",
+      "name" : "Ciholas Inc",
+      "type" : "Company",
+      "web" : "https://www.ciholas.com/"
+    },
     "-MmZDLMltEZshyQiHSi_" : {
       "desc" : "Kiesel Enterprises provides turnkey systems designs for large and small projects consisting of Grain Storage, Grain Handling, and Grain Drying Equipment as well as Zero Turn mowers sales and service.  Full Time, Summer, & Part Time positions available.  Will also work around college courses.  Inquire How.",
       "ia1" : "Electrical",
@@ -436,7 +264,18 @@
       "type" : "Company",
       "web" : "https://www.projectassociatesinc.com/"
     },
-    
+    "-MmZESoN_3_CUcsaz8HU" : {
+      "desc" : "ASC has created an Integrated Care Network throughout the state of Indiana. We are always looking to the future, seeking new and innovative ways to serve our customers and our employees.  ASC continues to evolve to better serve our residents, their loved ones and our healthcare partners.  ",
+      "ia1" : "Health Sciences",
+      "ia2" : "Culinary Arts",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABp1BMVEX////vQTb//v////38//////vxQDb///n//f/4/////v38//3//f72//////f8/v8AXqoAZLIAZK7///PvQTkAX6/u9fMAX6gAWaUAYKbx////+v/wQDrsQzUAXawAWaoAZqoAZrkAZ7BvnskAaLMAYrdKhbL4//mPt9isy9zj7/BjmMLyOTLrNyoAWLAAZ8EAUqIAW5qewdTK3eSBrMgIb66Os80weK/e5fIgbrLropvwMijy0czjRzniMCr48uvmfHbocG93ocMAU6u92OUAULEAQIWjvdTQ6fFLkbjx5ubljYnoin3sHybutqzk0tHVnJPlb2DompvoWlzVfXXvrqroU0b3xMjjwrHSb2X51cr0oZnhsKzbXVbkv8PhqqnCTkXfKBPXPTfr2NDqPELuRinohYf95uvRiorhkYP/LibjXkvk2tjmv7j769331dP1k5nyr5bpHgDOlZnvUE7rd3zTfHzlZGQwcqIwh8KhucONw95vrsGm2OoATIcPZp6qzs6PsNPJ6OMAPqIAXMHO6P01eKCFp9Tb3+RgiKWwv8xSl81YhJ4klYq4AAAccklEQVR4nO18i3/TRrr2RNJkNBpdLCu+yXEsG9vC8iW+m8RJnDguUQKkCyzsLpfuB4H2QDew3256CO2y3nZLD7Tnj/7eURIaWsouPWnJ+X56aCPr4tE8mpn3fZ6RZIRChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIECFChAgRIkSIEL8UJFUR3ncdfllsaXL6fdfhl8WFLcredx1+WVxcI8b7rsMJQ5BU+IMk/lmSpAeXtm0bafL7rtYJQhJkDXGOCH34m8XFy9W7VxYXF+Pvu1onCJqmcRloAkl39+qdqWptMKjt0vddrZOE7P42DS0Jn9KUXLtezdRmfkcVxJv1/48RqRjoyQM7zQOoJAnStZVBLfOI6rCqpX/vGpgdD62yLAuGwbAhGZIUjNvgLzIMGSmqQchpzKUKQ2u1JXoUWrYfXl+99MTiq0z+ww1Jfi09usBXo8BL3Xq8u729ePPmzVu7SztDQinTWFoWpffA4F8BGK4ObltHA297Zce+sXfF5nvok9tDSTvehtByUvrx9sUn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",
+      "name" : "American Senior Communities",
+      "type" : "Company",
+      "web" : "https://www.asccare.com/"
+    },
     "-Mn75FNbFkhE5k_y4BWl" : {
       "desc" : "The College of Health & Human Sciences at Southern Illinois University, Carbondale houses six schools; the School of Automotive, School of Aviation, School of Health Sciences, School of Human Sciences, School of Justice & Public Safety, and the School of Psychological & Behavioral Sciences. ",
       "ia1" : "Transportation",
@@ -485,7 +324,18 @@
       "type" : "Company",
       "web" : "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj9yPKy3O3zAhWxSzABHRGrCncQFnoECA4QAQ&url=https%3A%2F%2Fualocal136.org%2F&usg=AOvVaw1d9tJrK_3Q-9AWO41dT062"
     },
-    
+    "-Mn7A-CTaD5UR5MQ2Pvt" : {
+      "desc" : "The Evansville Fire Department started in 1888 and since that time has grown to 14 Fire Stations with 273 firefighters covering all aspects of the job. As a firefighter, we work a unique schedule of 24 hour shifts, 10 days a month. We offer an outstanding starting salary, great insurance plans, and a pension after 20 years of service. ",
+      "ia1" : "Public Safety",
+      "ia2" : "",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "data:image/jpeg;base64,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",
+      "name" : "Evansville Fire Department",
+      "type" : "Company",
+      "web" : "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwi6zcnH3u3zAhVORzABHe22Bz0QFnoECAgQAQ&url=https%3A%2F%2Fwww.evansvillegov.org%2Fcity%2Fdepartment%2Findex.php%3Fstructureid%3D20&usg=AOvVaw0uLn_gTvpOn_hbfCIsINAU"
+    },
     "-Mn7BqupmAitIeqV_WOG" : {
       "desc" : "McDonald's is a great place to start ANY career!  Gain skills that will help you with teamwork, organization, leadership and working with the public while continuing your education. We offer career growth and development in training and management.",
       "ia1" : "Quick Service",
@@ -522,7 +372,18 @@
       "type" : "College",
       "web" : "https://www.ivytech.edu/computers/"
     },
-    
+    "-Mn7FIEH15fL0n5Xn4bB" : {
+      "desc" : "Black Equipment Company opened in 1956 and offers a wide variety of equipment for sale & for rent. We sell, service, & rent forklifts, construction equipment, aerial equipment, sweepers/scrubbers, personnel carriers, industrial batteries & chargers, as well as other specialized material handling equipment & warehouse supplies. We offer both new & used equipment from quality manufacturer's including Yale, JCB, Genie, JLG, Cushman, Advance & more. We also stock & sell replacement parts for all makes & models of material handling & construction equipment.",
+      "ia1" : "HVAC",
+      "ia2" : "Construction",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "https://www.bing.com/th?id=AMMS_a552b1a37f3eabf7a6899b5803d55efd&w=110&h=110&c=7&rs=1&qlt=95&pcl=f9f9f9&o=6&cdv=1&dpr=1.25&pid=16.1",
+      "name" : "Black Equipment Company",
+      "type" : "Company",
+      "web" : "https://blackequipment.com/"
+    },
     "-Mn7FUl3AHBrFi_Pr2Cb" : {
       "desc" : "Nix specializes in manufacturing, maintenance, and industrial products sales. We believe our competitive advantage is the caliber of our people, our corporate culture, and our mission to “Be Big, Act Small ℠”. We are a midwestern based company with a national reach. Founded in 1902, we are a fifth generation, family business with multiple locations and operating divisions",
       "ia1" : "Manufacturing",
@@ -595,7 +456,18 @@
       "type" : "Company",
       "web" : "https://prorehab.com/"
     },
-    
+    "-Mn7HgVVGucG9hQJESAs" : {
+      "desc" : "Brake Supply was started in 1947 as a repair shop for automotive brakes.  In 1986, Brake Supply was acquired by Koch Enterprises, Inc. Over the years, Brake Supply developed expertise in rebuilding heavy-duty off-road powertrain components and hydraulic cylinders.  Today, our exchange inventory is valued at over $30 million, allowing customers to keep their equipment up and running with minimal down time.  Brake Supply Company is the world’s leader in re-manufactured parts and components.  Since 1947, Brake Supply has served the mining, marine, industrial, and heavy equipment industries.  Our 8 locations provide outstanding quality and customer service.  We are more than just brakes!  We re-manufacture transmissions, torque converters, differentials, drivelines, final drives, wet brakes, hydraulic cylinders, pumps, motors, valves, and much more. ",
+      "ia1" : "Manufacturing",
+      "ia2" : "Heavy Equipment Technician",
+      "ia3" : "CNC and Manual Machinist",
+      "ia4" : "Automotive Technician",
+      "ia5" : "",
+      "logo" : "http://www.kochenterprises.com/sites/default/files/pictures/BrakeSupply-Logo-Big.png",
+      "name" : "Brake Supply Co",
+      "type" : "Company",
+      "web" : "https://brake.com/"
+    },
     "-MnCSP_XIVhnK--ePmr2" : {
       "desc" : "Vincennes University Architectural Studies Program and Building Information Modeling (BIM) Program.  The Architectural Studies degree leads students to working for a company as an Architectural Technician upon graduation or transferring to an accredited school of Architecture to continue their education to become an Architect.  The BIM degree is made up of courses in architecture, construction, and surveying.  This degree leads students to working for a company as a BIM Technician upon graduation or continuing their education while majoring in Building Construction Management at Vincennes University.",
       "ia1" : "Engineering",
@@ -740,7 +612,18 @@
       "type" : "College",
       "web" : "https://www.rose-hulman.edu/"
     },
-    
+    "-MnWZy44tOK5lgIlByWH" : {
+      "desc" : "Alliance Source Testing is focused solely on providing accurate and consistent stack testing solutions that allow our partners to make informed decisions and succeed responsibly.  We are the largest exclusive air emissions testing company in the United States.  With our expertise in performing U.S.",
+      "ia1" : "Emissions Testing",
+      "ia2" : "Construction",
+      "ia3" : "Engineering",
+      "ia4" : "Manufacturing",
+      "ia5" : "",
+      "logo" : "https://media-exp1.licdn.com/dms/image/C4E0BAQF4gNJIbMnmuw/company-logo_200_200/0/1617632218886?e=2159024400&v=beta&t=k__VXx7qjWoHzZf1xSuUnOdc4jyvVT1sHWp3HgsvaOw",
+      "name" : "Alliance Technical Group, LLC",
+      "type" : "Company",
+      "web" : "https://alliancetechnicalgroup.com/"
+    },
     "-MnW_LyrDAJ5YVnjyIe7" : {
       "desc" : "Come for a job and stay for a career! FedEx Ground is part of the rapidly growing warehouse and transportation sector that helps keep America, and our economy, moving. Be part of a winning team and workplace community that cares about who you are as an individual, and your safety in the workplace.",
       "ia1" : "Transportation",
@@ -753,8 +636,30 @@
       "type" : "Company",
       "web" : "https://www.fedex.com/en-us/shipping/ground.html"
     },
-    
-    
+    "-MnW_h6B01nAWk6D8JXj" : {
+      "desc" : "Bricklayers Local 4 Evansville Chapter represents several counties in the Evansville and Henderson/Owensboro area. We train and place the highest skilled masonry mechanics in the industry. Earn while you learn! We offer very good pay and benefits packages.",
+      "ia1" : "Construction",
+      "ia2" : "",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "https://th.bing.com/th/id/R.124c3bddd16d1324a430403ecbc084be?rik=LYPW6EqXPcS2nw&pid=ImgRaw&r=0",
+      "name" : "Bricklayers Local 4",
+      "type" : "Company",
+      "web" : "http://www.baclocal4.org/"
+    },
+    "-MnW_rC84GRP9hd1wQ4S" : {
+      "desc" : "We are a CSIA certified control system integrator dedicated to performance improvement and innovation in batch manufacturing.  We primarily support a variety of large and small food and beverage manufacturers as well life sciences and metal industries.  ECS Solutions is a recognized leader in the delivery of process control systems that provide information and controls our customers need to manufacture more products faster and at a lower cost.  With rapid developments in technology we are always seeking new approaches to control systems - approaches that allow are staff in partnership with customers to filter and consume information quickly.  We take pride in our staff and our company culture and have been recognized in 2020 and 2021 as one of the Best Places To Work in Indiana.  ",
+      "ia1" : "Engineering",
+      "ia2" : "Computer Technology",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "https://www.csiaexchange.com/File.aspx?id=7759&v=53b434c",
+      "name" : "ECS Solutions Inc.",
+      "type" : "Company",
+      "web" : "https://ecssolutions.com/"
+    },
     "-MnW_w8wmr4PphyMNVGS" : {
       "desc" : "The UE Doctor of Nurse Anesthesia Practice program is a 3 year Doctoral program to train RNs to be CRNA's.  To apply, you must first complete your BSN in Nursing and have at least 18 months ICU experience.",
       "ia1" : "Health Sciences",
@@ -767,7 +672,18 @@
       "type" : "College",
       "web" : "https://www.evansville.edu/majors/nurse-anesthesia-program/"
     },
-    
+    "-MnWaAHXcsyC0ClFlsWe" : {
+      "desc" : "Architectural Sales, Lensing Building Specialties Is a leading provider of door opening solutions and integrated systems in our established trade area, ground level openings include: electronic security services and installation, fabrication and warehousing",
+      "ia1" : "Shipping/Receiving",
+      "ia2" : "Fabricating",
+      "ia3" : "Communications",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "https://media-exp1.licdn.com/dms/image/C4D0BAQHybIpxBj_NlA/company-logo_200_200/0/1543434328524?e=2159024400&v=beta&t=_v95UTubwiUOEeXvAQ7xGUP4Wtif9WedBykREy3I8uI",
+      "name" : "Architectural Sales",
+      "type" : "Company",
+      "web" : "https://www.lensingarchitecturalsales.com/"
+    },
     "-MnWaArTGEbWR9-iFUSh" : {
       "desc" : "Fibertech Plastics manufactures high quality, custom-engineered plastic products such as bulk containers, plastic pallets and plastic lockers. With material handling containers made from 100% virgin polyethylene, our proprietary line of products are FDA and USDA compliant. Additionally, our DOT Bulk Shipping Containers feature a sealable lid for material transport. We also repair plastic material handling products and offer industrial plastic recycling services. Fibertech bulk material handling products are used in the automotive, food, agriculture, pharmaceutical, and general industries.",
       "ia1" : "Manufacturing",
@@ -840,7 +756,18 @@
       "type" : "Company",
       "web" : "https://www.hopfequipment.com/"
     },
-    
+    "-MnWbIKpcyqiFv349LX6" : {
+      "desc" : "At Berry, we create innovative packaging and engineered products that we believe make life better for people and the planet. Our mission of always advancing to protect what’s important is the foundation for all that we do. We operate over 290 manufacturing facilities worldwide, on six continents, and employ over 48,000 individuals. ",
+      "ia1" : "Manufacturing",
+      "ia2" : "Engineering",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "data:image/jpeg;base64,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",
+      "name" : "Berry Global, Inc.",
+      "type" : "Company",
+      "web" : "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjkoL3alPrzAhVTXM0KHQtMAYoQFnoECAoQAQ&url=https%3A%2F%2Fwww.berryglobal.com%2F&usg=AOvVaw3OfJXk234Srxi-zBDbd5O7"
+    },
     "-MnWbpmhHj-Mjzu1OSsy" : {
       "desc" : "Henderson Community College provides a variety of technical programs including Computer Information Technology, Agriculture, Business Administration, and Health Sciences programs. Indiana residents may qualify for instate tuition and additional scholarships.   ",
       "ia1" : "Manufacturing",
@@ -937,8 +864,30 @@
       "type" : "College",
       "web" : "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj9_pT4lvrzAhWidM0KHZymA2MQFnoECAIQAQ&url=https%3A%2F%2Fwww.evansville.edu%2Fcolleges%2Fbusiness-engineering.cfm&usg=AOvVaw1CWqf7j_6R7aWCmJBqBPDy"
     },
-    
-    
+    "-MnWeDqRXi9eGfeim3JA" : {
+      "desc" : "Gibson County Coal, LLC is an underground coal mining operation that provides opportunities for employment in all types of underground mining positions including underground equipment operators, underground mechanics, mine and belt examiners, belt maintenance, preparation plant, safety, engineering and general laborer positions.",
+      "ia1" : "Mining",
+      "ia2" : "",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "https://th.bing.com/th/id/R.ce13f60cbb2326e420c813368c071857?rik=2SwKHCGIl6XDcA&riu=http%3a%2f%2fwww.delfini.org%2fimages%2fAllianceCoalLogo.jpg&ehk=9qaDP4UlY7mO5UgreUS7zxBplgaq8ZifrhHt%2bnxHGB8%3d&risl=&pid=ImgRaw&r=0",
+      "name" : "Alliance Coal",
+      "type" : "Company",
+      "web" : "http://www.arlp.com/home/default.aspx"
+    },
+    "-MnWeG06VS8RNt4g6_41" : {
+      "desc" : "AstraZeneca is a global, science-led biopharmaceutical business and our innovative medicines are used by millions of patients worldwide.  Our Mount Vernon Indiana site is the largest site in the Americas, employing 700+ team members.  The Site formulates and packages oral solid dose tablets, capsules, powders and liquids supporting over 60 markets.",
+      "ia1" : "Manufacturing",
+      "ia2" : "Pharma",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "https://zerocancer.org/wp-content/uploads/2020/04/AstraZeneca-Logo.png",
+      "name" : "AstraZeneca",
+      "type" : "Company",
+      "web" : "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwiF6cfDl_rzAhUJa80KHd2DCOUQFnoECAoQAQ&url=https%3A%2F%2Fwww.astrazeneca.com%2F&usg=AOvVaw06IYgqME1XmtAVHXttFWAY"
+    },
     "-MnWfttAAMFx4nw5rTUH" : {
       "desc" : "Ivy Tech's School of Health Sciences programs are the perfect place to begin your health care career. We offer Phlebotomy, Surgical Technology, Medical Assisting, Paramedic, EMT, Massage Therapy, CNA, and QMA.",
       "ia1" : "Health Sciences",
@@ -958,7 +907,7 @@
       "ia3" : "",
       "ia4" : "",
       "ia5" : "",
-      "logo" : "https://www.bbb.org/ProfileImages/8f9037d6-3e85-4694-a57b-8fb2f377ec39.jpeg",
+      "logo" : "data:image/png;base64,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",
       "name" : "Empire Contractors, Inc.",
       "type" : "Company",
       "web" : "http://www.empire-contractors.com/"
@@ -1131,7 +1080,18 @@
       "type" : "Company",
       "web" : "https://sibaonline.org/"
     },
-    
+    "-MnWlYpM3ZsCqUP0dP2w" : {
+      "desc" : "",
+      "ia1" : "Automotive",
+      "ia2" : "",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "https://th.bing.com/th/id/R.7056beb20581d58c63ae855956f6de8b?rik=X%2bpNQMlpK6mqCA&riu=http%3a%2f%2fwww.bestonetireandservice-sit.com%2fPortals%2f70%2flogo.png&ehk=8kG2E4DjiwWVX5D0%2bUVUEj3K175%2f6QoYkJaWi0jeZjw%3d&risl=&pid=ImgRaw&r=0",
+      "name" : "Best One Tire",
+      "type" : "Company",
+      "web" : "https://www.bestonetire.com/"
+    },
     "-MnWlrt7YsJBs4zOniRt" : {
       "desc" : "",
       "ia1" : "Transportation",
@@ -1156,8 +1116,30 @@
       "type" : "Company",
       "web" : "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwj84f_En_rzAhWBQs0KHRr_AB8QFnoECAYQAQ&url=https%3A%2F%2Fwww.hoehnplastics.com%2F&usg=AOvVaw0fKDngGQ__nlscYh6HiVis"
     },
-    
-    
+    "-MnWmWhMrkaf3epDWcge" : {
+      "desc" : "",
+      "ia1" : "Diesel Technology ",
+      "ia2" : "",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "https://image.pitchbook.com/DcHLQ6yJWeZeHA5pheyiLmy8wBb1620147962322_200x200",
+      "name" : "Boyd Cat",
+      "type" : "Company",
+      "web" : "https://whaynewalker.com/"
+    },
+    "-MnWn10JFZGFQu95FUmG" : {
+      "desc" : "We represent Deaconess Hospital.  We offer a wide range of positions from patient care to non-patient care positions.  Many of our positions requires only a High School Diploma.  Many areas of the hospital will be represented.  ",
+      "ia1" : "Health Sciences",
+      "ia2" : "",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "http://chambermaster.blob.core.windows.net/images/members/1853/27578/Deaconess_200x200.png",
+      "name" : "Deaconess Health System",
+      "type" : "Company",
+      "web" : "https://www.deaconess.com/Deaconess-Gateway-Hospital"
+    },
     "-MnWnFNWxXSrAbZXKwLp" : {
       "desc" : "",
       "ia1" : "Construction",
@@ -1169,6 +1151,42 @@
       "name" : "Healthy Spaces",
       "type" : "Company",
       "web" : "https://www.healthyspacessystems.com/"
+    },
+    "-MnWvkHYdjHojuU8IChK" : {
+      "desc" : "",
+      "ia1" : "Engineering",
+      "ia2" : "Manufacturing",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "https://www.ivytech.edu/images/IvyTech_Alternative_Vertical_BlackText_Color-01.png",
+      "name" : "Ivy Tech ",
+      "type" : "College",
+      "web" : "https://www.ivytech.edu/"
+    },
+    "-MnWwAPCFaA3hUKjaJmt" : {
+      "desc" : "At BWX Technologies, Inc. (NYSE: BWXT), we are People Strong, Innovation Driven. Headquartered in Lynchburg, Va., BWXT provides safe and effective nuclear solutions for national security, clean energy, environmental remediation, nuclear medicine and space exploration. With approximately 6,400 employees, BWXT has 12 major operating sites in the U.S. and Canada. We are the sole manufacturer of naval nuclear reactors for U.S. submarines and aircraft carriers. Our company supplies precision manufactured components, services and fuel for the commercial nuclear power industry across four continents. Our joint ventures provide environmental remediation and nuclear operations management at more than a dozen U.S. Department of Energy and NASA facilities. BWXT’s technology is driving advances in medical radioisotope production in North America and microreactors for various defense and space applications. Follow us on Twitter at @BWXTech and learn more at www.bwxt.com.",
+      "ia1" : "Manufacturing",
+      "ia2" : "",
+      "ia3" : "",
+      "ia4" : "",
+      "ia5" : "",
+      "logo" : "https://cna.ca/wp-content/uploads/2020/03/BWXT-logo-square-300x300.jpg",
+      "name" : "BWX Technologies, Inc.",
+      "type" : "Company",
+      "web" : "https://www.bwxt.com/"
+    },
+    "-MnWxDO8Ca955zxaGm5g" : {
+      "desc" : "",
+      "ia1" : "Computer Technology",
+      "ia2" : "Communications",
+      "ia3" : "Health Sciences",
+      "ia4" : "Engineering",
+      "ia5" : "",
+      "logo" : "https://th.bing.com/th/id/OIP.DPVGjnv-QjFlig6bimHECQHaIH?pid=ImgDet&rs=1",
+      "name" : "University of Southern Indiana",
+      "type" : "College",
+      "web" : "https://www.usi.edu/"
     }
   }
 }

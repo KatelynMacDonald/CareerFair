@@ -91,6 +91,8 @@ document.getElementById("collegesbutton").onclick = function() {addColleges()};
 document.getElementById("companiesbutton").onclick = function() {addCompanies()};
 document.getElementById("militarybutton").onclick = function() {addMilitary()};
 
+
+
 function addCard(l){
 
     var prevDiv = document.getElementById("body-output").innerHTML;
