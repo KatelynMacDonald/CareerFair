@@ -88,6 +88,14 @@ function addMilitary(){
     });
 }
 
+class addObjects{
+    constructor(name,logo,website,description,interests)
+}
+
+
+
+
+
 addAll();
 
 //https://www.w3schools.com/jsref/event_onclick.asp
