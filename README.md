@@ -2,9 +2,9 @@
 
 **Table of Contents**
 1. [Overview](#overview)
-2. [Pushing information to Firebase](#pushing)
-3. Pulling information from Firebase
-4. Disecting 2-dimensional dictionaries
+2. [Pushing information to Firebase](#pushing-information-to-firebase)
+3. [Pulling information from Firebase](#pulling-information-from-firebase)
+4. [Disecting 2-dimensional dictionaries](#disecting-2-dimensional-dictionaries)
 5. Displaying information to the website
 
 ## Overview
