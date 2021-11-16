@@ -35,6 +35,8 @@ No action is required to display new information because the website updates whe
 
 Any new college/company is added through the addCard.html file, a basic html form that has been formatted with bootstrap. This allows information to added easily and effciently without having to add it manually in firebase.
 
+<iframe src="https://drive.google.com/file/d/1aQa_5gMvzOxblce0bcth6rW60Z2EelSP/preview" width="640" height="480" allow="autoplay"></iframe>
+
 A static firebase script is ran in order to help with initialzation of firebase into the code.
 
 Once the user clicks submit:
