@@ -6,8 +6,7 @@
        &nbsp;&nbsp; b. [The Process](#the-process)
 3. [Pushing information to Firebase](#pushing-information-to-firebase)
 4. [Pulling information from Firebase](#pulling-information-from-firebase)
-5. [Disecting 2-dimensional dictionaries](#disecting-2-dimensional-dictionaries)
-6. [Displaying information to the website using javascript](#displaying-information-to-the-website-using-javascript)
+5. [Displaying information to the website using javascript](#displaying-information-to-the-website-using-javascript)
 
 ## Overview
 
@@ -128,11 +127,111 @@ function getInputVal(id) {
 
 ## Pulling information from Firebase
 
+Information in the CCF Website is pulled by using a javascript (get.js) file that writes out each individual card into the index.html file. Basically, for each college/company in the database, it will build out a card with all of its information and add it onto the previous cards.
 
+The first thing to do, similarly to the addCard.html file, is to import a static script in order to help with the initialzation of firebase.
+```js
+import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
+```
 
-## Disecting 2-dimensional dictionaries
+Next, the firebaseConfig variable is defined and firebase is initialized. 
+```js
+var firebaseConfig = {
+		apiKey: "AIyaSyAnbiYMGExQslJ9styiklG-WPIp6vFBIbE",
+		authDomain: "sictc-career-fair.firebaseapp.com",
+		projectId: "sictc-career-fair",
+		storageBucket: "sictc-career-fair.appspot.com",
+		messagingSenderId: "513234127322",
+		appId: "1:513434627352:web:bc29fecd5ceeea674b3943",
+		measurementId: "G-1GKEYRNJXY",
+		databaseURL: "https://sictc-career-fair-default-rtdb.firebaseio.com/"
+		};
+		
+firebase.initializeApp(firebaseConfig);
+var database = firebase.database();
+```
 
+The database variable is made so that firebase.database() can be condense and it makes it easier to write later on.
 
+Next, a prototype function is added to the String class in order to make formatting strings easier, similar to how strings are formatted in Python. This will be very useful later.
+```js
+if (!String.prototype.format) {
+    String.prototype.format = function() {
+        var args = arguments;
+        return this.replace(/{(\d+)}/g, function(match, number) { 
+            return typeof args[number] != 'undefined'
+                ? args[number]
+                : match
+            ;
+        });
+    };
+}
+```
+
+Now comes the exiting part, actually pulling down the information. This is done in a singular function defined as getRef(). Technically, defining the getRef() function is not necessary for one-time use cases and depends on the application or if filtering is involved. Defining it like this makes it easier to add more functionality.
+
+```js
+function getRef(){
+```
+
+The function first makes a reference to "Items" which is the catagory the colleges/companies are stored in as defined in addCard.html. This is where we are grabbing each item.
+
+The .on() method activates anytime a parameter is changed. In this case, the .on() method runs anytime a value is changed/added/deleted.
+
+It then takes a snapshot of the entire "Items" catagory and passes it into a lambda function (=>). 
+
+```js
+database.ref("Items").on('value', (snapshot) => {
+```
+
+In index.html, the body is assigned an id of "body-output". We call the document that the script is ran in, get the body element by its id, and edit the inner html of the body.
+
+The inner html is cleared to prevent duplication when the database is changed or if a new value is added. This is extremely important to have because the website could get overloaded and slow if there is a lot of data in the database.
+
+```js
+document.getElementById("body-output").innerHTML = "";
+```
+
+Then, the constant variable data is defined as the value (val()) of snapshot. This makes the snapshot variable readable in javascript.
+
+```js
+const data = snapshot.val();
+```
+
+Currently, the data variable is a single-item dictionary with the key being "Items" and the values of that key being each college/company. Each college/company is a dictionary of its own with dictionaries inside of it as well. This makes the data variable a 3-dimensional dictionary. Beautiful.
+
+In order to get the information to a more usable state, it will have to be disected a little bit.
+
+The variable "items" is defined as the values of data, separting the colleges/companies from the first layer of the dictionary. Imagine Shrek, he's got layers like an onion, and so does this dictionary.
+
+```js
+var items = Object.values(data);
+```
+
+Now, a for loop is needed to iterate through each college/company, which are their own dictionaries with dictionaries inside. We are now down to a 2-dimensional dictionary. This is like dictionary inception.
+
+This for loop iterates through each item in the "items" variable and passes it into the addCard() function, which is elaborated in the next section.
+
+```js
+for (let l in items){
+            addCard(items[l]);
+        }
+```
+
+Fully completed, the function should look as follows:
+
+```js
+function getRef(){
+    database.ref("Items").on('value', (snapshot) => {
+        document.getElementById("body-output").innerHTML = "";
+        const data = snapshot.val();
+        var items = Object.values(data);
+        for (let l in items){
+            addCard(items[l]);
+        }
+    });
+}
+```
 
 ## Displaying information to the website using javascript
 
