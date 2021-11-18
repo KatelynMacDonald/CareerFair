@@ -235,4 +235,80 @@ function getRef(){
 
 ## Displaying information to the website using javascript
 
+In order to actually display the retrieved information on the website, html code is built out in a javascript function and formatted for each college/company.
 
+I used the function addCard(l), not to be confused with addCard.html. The variable "l" is passed in. "l" was randomly chosen and has no signifigant meaning.
+```js
+function addCard(l){}
+```
+
+First, all of the previous information in the body needs to be grabbed so that we can add onto it with each new card.
+This is done by defining a single varibale with the innerHTML code. I named it prevDiv because all of this is inside of a <div> tag, however the name doesn't really matter.
+```js
+var prevDiv = document.getElementById("body-output").innerHTML;
+```
+
+Next, I defined a variable "div" which contained html code in the form of a string.
+	It looks something like this:
+```js
+    var div = `
+    <div class="card mb-3" style="max-width: 75%;" align="left">
+        <div class="row g-0">
+            <div class="col-md-2">
+                <img src="{0}" class="img-fluid rounded-start" style="padding:10px;" alt="{1} logo" >
+            </div>
+            <div class="col-md-7">
+                <div class="card-body">
+                    <h5 class="card-title" style="font-size: 27px;">{1}</h5>
+                    <div class="card-body">`.format(l["logo"],l["name"]);
+```
+			    
+I know that it looks complicated, but it really is isnt. Don't look at the div variable like it is html code, look at it like it's a string.
+
+To get multi-line strings in javascript, the character ` can be used. It is directly to the left of the 1 button on most keyboards.
+
+Any information that needs to be added to the string from a college/company can be formatted into it just like python.
+
+For example, using {0} and a placeholder means that in the .format() at the end of the string, it will use the first thing in the parenthesis. 
+
+As for this code, what we passed in, l, is actually a dictionary. So when l["name"] is used, it is the key "name" of the dictionary "l" and will return the value, being the college's/company's name.
+
+You don't have to defined all of the html code into the variable at once. You can do if statement and make additions too.
+			    
+For example, take a look at this:
+```js
+if (l["type"]==="College"){
+        div = div + `<a href="{0}" class="btn btn-danger">{1} Website</a>`.format(l["web"],l["name"]);
+    } else if (l["type"]==="Company"){
+        div = div + `<a href="{0}" class="btn btn-primary">{1} Website</a>`.format(l["web"],l["name"]);
+    } else {
+        div = div + `<a href="{0}" class="btn btn-success">{1} Website</a>`.format(l["web"],l["name"]);
+    }
+        
+    div = div + `   </div>
+                    <p class="card-text">{0}</p>
+                </div>
+            </div>
+            <div class="col-md-3" align="center" style="padding-right:15px;padding-left:15px;">
+                <div class="card-body">
+                    <p class="card-text">Interest Areas:</p>
+                </div> 
+                <ul class="list-group list-group-flush">`.format(l["desc"]);
+```
+
+The if statement above reads if the type is college, company, or military and adds a different button depending on the type. Since the button is above the description, I then just added more string to the div variable after the if statement to add my description.
+			
+One of the hardest parts of doing this in this way is to keep track of tags, especially ending tags. My suggestion is to keep everything tabbed, as it looks above, in order to keep track of where things begin and end. This will help you stay organized.
+			
+This may seem complicated, but it is one of the most functional ways to do this in the sense that you can add loops, if statements, lists, etc while building the html code out. This is almost exactly how amazon and google build out each search result when you search for something.
+			
+Now for the final part. In order to add all of this to the index.html, the following code is added:
+```js
+document.getElementById("body-output").innerHTML = prevDiv + div;
+```
+			
+This adds the newly built card into the inner html code of the website along with all of the previous code that we grabbed earlier.
+			
+Because it is a for loop, this function will rinse and repeat over and over again until it has iterated through all of the items in the database.
+			
+Now sit back and refresh your page and watch it appear immediately, pretty cool right?
