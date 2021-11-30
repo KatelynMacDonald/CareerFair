@@ -7,6 +7,7 @@
 3. [Pushing information to Firebase](#pushing-information-to-firebase)
 4. [Pulling information from Firebase](#pulling-information-from-firebase)
 5. [Displaying information to the website using javascript](#displaying-information-to-the-website-using-javascript)
+6. [CORS Error](#cors-error)
 
 ## Overview
 
@@ -312,3 +313,38 @@ This adds the newly built card into the inner html code of the website along wit
 Because it is a for loop, this function will rinse and repeat over and over again until it has iterated through all of the items in the database.
 			
 Now sit back and refresh your page and watch it appear immediately, pretty cool right?
+			
+## CORS Error
+
+Sometimes, when trying to run a website locally, your web browser may give a "CORS Error". The most common one, seen in firefox, states "CORS request not http". This means that the browser is looking for an http request but did not get one.
+			
+<img src="images/cors error.png"></img>
+		    
+This happens almost only when hosting a website locally, i.e. opening an html file in your browser.
+		    
+To bypass this, you will need to use firefox. 
+Open firefox's "Advanced Preferences" setting by typing ***about:config*** into a new tab.
+		    
+You will now see a warning message as follows:
+		    
+<img src="images/caution.png"></img>
+		
+Go ahead and click "accept the risk". I promise its safe.
+		
+Now you should see a page like this:
+		
+<img src="images/config_landing.png"></img>
+	    
+If you don't see this, you've done something wrong.
+	    
+Now in the search box type "file_unique_origin".
+	    
+<img src="images/unique_origin.png"></img>
+	
+This should pop up:
+	
+<img src="images/privacy.png"></img>
+
+The middle option should say "true". Click the button on the very right <img src="images/button.png"></img> to make it "false".
+
+Now simply exit the tab and the error should be fixed.
