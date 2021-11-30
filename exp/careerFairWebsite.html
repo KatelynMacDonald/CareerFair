@@ -11,6 +11,7 @@
         <script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
         <!-- <script type="module" src="get.js"></script> -->
         <script type="module">
+        //uses fire base to pull the data from the user
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.0.2/firebase-app.js";
             const firebaseConfig = {
                 apiKey: "AIzaSyAneiYMGEzQslJ9stxikkG-WDIp4vFBIdE",
@@ -27,6 +28,7 @@
             var database = firebase.database();
             
             function getVals(database){
+                //goes through and looks at the different variables 
                 database.ref("Items").on('value', (snapshot) => {
                     const data = snapshot.val();
                     var items = Object.values(data);
@@ -70,6 +72,7 @@
 
                 var prevDiv = document.getElementById("output").innerHTML;
 
+                //puts it into the layout we want
                 var div = `
                     <div class="grid-container">
                         <div class="item1"><img src={0} alt="picture" height="250" width="250" ></div>
