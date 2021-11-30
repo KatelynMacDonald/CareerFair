@@ -6,6 +6,7 @@
 	<title>Add Items</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+	<!--uses bootstrap to style the website-->
 	<link rel="stylesheet" 
         href="bootstrap.min.css">
 </head>
@@ -19,9 +20,9 @@
 	<form class="container" id="contactForm">
 
 		<div class="card">
-
+			<!--this prints out the different bars to enter-->
 			<div class="card-body">
-
+				<!--the next 4 will print out the text boxes to type in and use the class from bootstrap to pull the info the user entered-->
 				<div class="form-group">
 					<label for="exampleFormControlInput1">Name</label>
 					<input type="text" class="form-control" id="name" placeholder="Name">
@@ -42,6 +43,7 @@
 					<input type="text" class="form-control" id="desc" placeholder="Description">
 				</div>
 
+				<!--will print out a group of text boxes to input interest areas in and set their id-->
 				<div class="form-group">
 					<fieldset>
 						<legend>Interest Areas:</legend>
@@ -58,6 +60,7 @@
 					  </fieldset>
 				</div>
 
+				<!--this will create the drop down menu to choose what type it is-->
                 <div class="form-group">
 					<label for="exampleFormControlInput1">Type</label>
 						<select name="type" id="type">
@@ -68,11 +71,12 @@
 				</div>
 
 			</div>
-
+			<!--creates the button and will call the class to take everything in when it is pushed-->
 			<button type="submit" class="btn btn-primary"
 				style="margin: 15px;">Submit</button>
 		</div>
 	</form>
+	<!--this creates the back button. When it is clicked it takes you back to the html career fair website-->
 	<form class="container" method="post" action="careerFairWebsite.html">
 		<button class="btn btn-secondary"
 			style="margin: 15px;">Back</button>
@@ -80,7 +84,7 @@
 
 	<script src="https://www.gstatic.com/firebasejs/3.7.4/firebase.js"></script>
 	
-	<script>
+	<script>	//turns it back into js
 		var firebaseConfig = {
 		apiKey: "AIzaSyAneiYMGEzQslJ9stxikkG-WDIp4vFBIdE",
 		authDomain: "sictc-career-fair.firebaseapp.com",
@@ -91,15 +95,16 @@
 		measurementId: "G-1GKEYRGJXZ",
 		databaseURL: "https://sictc-career-fair-default-rtdb.firebaseio.com/"
 		};
-
+		//this starts the firebase
 		firebase.initializeApp(firebaseConfig);
 
 		var db = firebase.database();
 
 		var messagesRef = db.ref('Items');
-		
+		//this listens to see if the button is clicked and keeps track of the time stamp that it has
 		document.getElementById('contactForm').addEventListener('submit', submitForm);
 
+		//this takes all the inputs from the user and puts them into the fire base function then clears the form
 		function submitForm(e) {e.preventDefault();
 
 			// Get values
