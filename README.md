@@ -316,7 +316,7 @@ Now sit back and refresh your page and watch it appear immediately, pretty cool 
 			
 ## CORS Error
 
-Sometimes, when trying to run a website locally, your web browser may give a "CORS Error". The most common one, seen in firefox, states "CORS request not http". This means that the browser is looking for an http request but did not get one.
+Sometimes, when trying to run a website locally, your web browser may give a "CORS Error" when the html file calls a script file or other outside file. The most common one, seen in firefox, states "CORS request not http". This means that the browser is looking for an http request but did not get one.
 			
 <img src="images/cors error.png"></img>
 		    
