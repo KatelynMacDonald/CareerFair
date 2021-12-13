@@ -8,6 +8,9 @@
 4. [Pulling information from Firebase](#pulling-information-from-firebase)
 5. [Displaying information to the website using javascript](#displaying-information-to-the-website-using-javascript)
 6. [CORS Error](#cors-error)
+7. [Creating an object from the Firebase](# Creating an object from the Firebase)
+
+
 
 ## Overview
 
@@ -348,3 +351,9 @@ This should pop up:
 The middle option should say "true". Click the button on the very right <img src="images/button.png"></img> to make it "false".
 
 Now simply exit the tab and the error should be fixed.
+
+## Creating an object from the Firebase
+
+Sometimes it is much easier to keep multiple parts of data inside of a object than to keep messing with multiple different variables. This is where you would take your variables and create an object
+
+
