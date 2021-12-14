@@ -356,4 +356,41 @@ Now simply exit the tab and the error should be fixed.
 
 Sometimes it is much easier to keep multiple parts of data inside of a object than to keep messing with multiple different variables. This is where you would take your variables and create an object
 
+First you need to download the node.js application. This will help run the js file
+
+You now need to download the firebase file to recieve all your data
+
+In your js file you have to read in the json file. In order to read the file you need to use the require funtion. 
+
+```js
+var json = require('C:/Users/padawan/Documents/CareerFair/sort/rawdata.json');
+```
+
+You then need to go through that file and grab all the items in the dictionary in order to put it through your class. You will need to use a for loop because you have a dictionary inside of a dictionary.
+
+```js
+var data = [];
+        for (let j in json["Items"]){
+            data.push(json["Items"][j]);
+        }
+```
+
+Now you would need to create a class in order to create your object
+
+Make sure you name your file the same as the class
+
+You need to declare all the variables that you will be passing in. And then make funtions to return a certain characteristic.
+
+<img src="images/objectClass.png"></img>
+
+
+
+
+
+Back over in your js file you need to run through your list that you made from the funtion. For each item in your list you need to push in the necessary requirements from your class. 
+
+<img src="images/forLoopForClass.png"></img>
+
+
+
 
