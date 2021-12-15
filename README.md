@@ -7,6 +7,10 @@
 3. [Pushing information to Firebase](#pushing-information-to-firebase)
 4. [Pulling information from Firebase](#pulling-information-from-firebase)
 5. [Displaying information to the website using javascript](#displaying-information-to-the-website-using-javascript)
+6. [CORS Error](#cors-error)
+7. [Creating an object from the Firebase](# Creating an object from the Firebase)
+
+
 
 ## Overview
 
@@ -312,3 +316,81 @@ This adds the newly built card into the inner html code of the website along wit
 Because it is a for loop, this function will rinse and repeat over and over again until it has iterated through all of the items in the database.
 			
 Now sit back and refresh your page and watch it appear immediately, pretty cool right?
+			
+## CORS Error
+
+Sometimes, when trying to run a website locally, your web browser may give a "CORS Error" when the html file calls a script file or other outside file. The most common one, seen in firefox, states "CORS request not http". This means that the browser is looking for an http request but did not get one.
+			
+<img src="images/cors error.png"></img>
+		    
+This happens almost only when hosting a website locally, i.e. opening an html file in your browser.
+		    
+To bypass this, you will need to use firefox. 
+Open firefox's "Advanced Preferences" setting by typing ***about:config*** into a new tab.
+		    
+You will now see a warning message as follows:
+		    
+<img src="images/caution.png"></img>
+		
+Go ahead and click "accept the risk". I promise its safe.
+		
+Now you should see a page like this:
+		
+<img src="images/config_landing.png"></img>
+	    
+If you don't see this, you've done something wrong.
+	    
+Now in the search box type "file_unique_origin".
+	    
+<img src="images/unique_origin.png"></img>
+	
+This should pop up:
+	
+<img src="images/privacy.png"></img>
+
+The middle option should say "true". Click the button on the very right <img src="images/button.png"></img> to make it "false".
+
+Now simply exit the tab and the error should be fixed.
+
+## Creating an object from the Firebase
+
+Sometimes it is much easier to keep multiple parts of data inside of a object than to keep messing with multiple different variables. This is where you would take your variables and create an object
+
+First you need to download the node.js application. This will help run the js file
+
+You now need to download the firebase file to recieve all your data
+
+In your js file you have to read in the json file. In order to read the file you need to use the require funtion. 
+
+```js
+var json = require('C:/Users/padawan/Documents/CareerFair/sort/rawdata.json');
+```
+
+You then need to go through that file and grab all the items in the dictionary in order to put it through your class. You will need to use a for loop because you have a dictionary inside of a dictionary.
+
+```js
+var data = [];
+        for (let j in json["Items"]){
+            data.push(json["Items"][j]);
+        }
+```
+
+Now you would need to create a class in order to create your object
+
+Make sure you name your file the same as the class
+
+You need to declare all the variables that you will be passing in. And then make funtions to return a certain characteristic.
+
+<img src="images/objectClass.png"></img>
+
+
+
+
+
+Back over in your js file you need to run through your list that you made from the funtion. For each item in your list you need to push in the necessary requirements from your class. 
+
+<img src="images/forLoopForClass.png"></img>
+
+
+
+
