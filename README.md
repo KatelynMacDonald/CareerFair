@@ -381,7 +381,7 @@ Make sure you name your file the same as the class
 
 You need to declare all the variables that you will be passing in. And then make funtions to return a certain characteristic.
 
-<img src="images/objectClass.png"></img>
+<img src="images/objectClass.PNG"></img>
 
 
 
@@ -389,7 +389,7 @@ You need to declare all the variables that you will be passing in. And then make
 
 Back over in your js file you need to run through your list that you made from the funtion. For each item in your list you need to push in the necessary requirements from your class. 
 
-<img src="images/forLoopForClass.png"></img>
+<img src="images/forLoopForClass.PNG"></img>
 
 
 
