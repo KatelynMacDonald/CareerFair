@@ -172,7 +172,7 @@ if (!String.prototype.format) {
 }
 ```
 
-Now comes the exiting part, actually pulling down the information. This is done in a singular function defined as getRef(). Technically, defining the getRef() function is not necessary for one-time use cases and depends on the application or if filtering is involved. Defining it like this makes it easier to add more functionality.
+Now comes the exciting part, actually pulling down the information. This is done in a singular function defined as getRef(). Technically, defining the getRef() function is not necessary for one-time use cases and depends on the application or if filtering is involved. Defining it like this makes it easier to add more functionality.
 
 ```js
 function getRef(){
